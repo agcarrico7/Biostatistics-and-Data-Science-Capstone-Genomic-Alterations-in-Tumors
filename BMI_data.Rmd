@@ -1,0 +1,195 @@
+---
+title: "BMI Dataset"
+author: "Amanda Carrico"
+date: "2024-05-29"
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+    toc_depth: 2
+    number_sections: no
+    theme: cerulean
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+  word_document:
+    toc: no
+  pdf_document:
+    toc: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+  
+
+# Load in data (put together any dataset with BMI that had over 100-200 patients)
+
+## Bladder Urothelial Carcinoma TCGA/Firehose Legacy
+```{r}
+Bladder_data_clinical <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/Bladder Urothelial_data_clinical_patient.csv")
+bladder_data_patient <- Bladder_data_clinical %>% select(PATIENT_ID, WEIGHT, HEIGHT, SEX, RACE, ETHNICITY, SITE_OF_TUMOR_TISSUE, METASTATIC_SITE_PATIENT, AGE, OS_STATUS, OS_MONTHS) %>% mutate(BMI = as.numeric(WEIGHT)/(as.numeric(HEIGHT)/100)^2, OS_STATUS = ifelse(OS_STATUS == "1:DECEASED", 1, 0), METASTATIC_SITE_PATIENT = ifelse(METASTATIC_SITE_PATIENT == "[Not Available]" | METASTATIC_SITE_PATIENT == "None", NA, METASTATIC_SITE_PATIENT), RACE = ifelse(RACE == "[Not Available]", NA, RACE), SEX = ifelse(SEX == "[Not Available]", NA, SEX), ETHNICITY = ifelse(ETHNICITY == "[Not Available]", NA, ETHNICITY)) %>% select(-c(WEIGHT, HEIGHT)) %>% filter(!is.na(BMI)) %>% mutate(BMI_CATEGORIES = ifelse(BMI < 18.5, "Underweight", ifelse(BMI < 25, "Normal_Weight", ifelse(BMI < 30, "Overweight", "Obese"))))
+
+
+Bladder_data_sample <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/Bladder Urothelial_data_clinical_sample.csv")
+Bladder_data_sample <- Bladder_data_sample %>% select(PATIENT_ID, SAMPLE_ID, CANCER_TYPE, TMB_NONSYNONYMOUS) %>% group_by(PATIENT_ID) %>% mutate(Code_frequency= n(), TMB = TMB_NONSYNONYMOUS, Study = "Bladder Urothelial Carcinoma TCGA/Firehose Legacy", TUMOR_PURITY = NA, CANCER_TYPE = ifelse(CANCER_TYPE == "[Not Available]", NA, CANCER_TYPE)) %>% select(-TMB_NONSYNONYMOUS)
+Bladder_data <- merge(bladder_data_patient, Bladder_data_sample, by = c("PATIENT_ID")) %>% filter(!(PATIENT_ID == "TCGA-DK-A1A6" & TMB == NA))
+
+head(Bladder_data) 
+```
+
+## Glioblastoma CPTAC/Cell 2021
+```{r}
+Glioblastoma_data_clinical <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/Glioblastoma_data_clinical_patient.csv")
+Glioblastoma_data_clinical <- Glioblastoma_data_clinical %>% select(PATIENT_ID, BMI, AGE, SEX, RACE, ETHNICITY, VITAL_STATUS, FOLLOW_UP_PERIOD) %>% mutate(OS_STATUS = ifelse(VITAL_STATUS == "Deceased", 1, 0), OS_MONTHS = substr(FOLLOW_UP_PERIOD, 1,2), RACE = ifelse(RACE == "[Not Available]", NA, RACE), SEX = ifelse(SEX == "[Not Available]", NA, SEX), ETHNICITY = ifelse(ETHNICITY == "[Not Available]", NA, ETHNICITY), BMI_CATEGORIES = ifelse(BMI < 18.5, "Underweight", ifelse(BMI < 25, "Normal_Weight", ifelse(BMI < 30, "Overweight", "Obese")))) %>% select(-c(FOLLOW_UP_PERIOD, VITAL_STATUS))
+
+
+Glioblastoma_data_sample <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/Glioblastoma_data_clinical_sample.csv")
+Glioblastoma_data_sample <- Glioblastoma_data_sample %>% select(PATIENT_ID, SAMPLE_ID, CANCER_TYPE, TMB_NONSYNONYMOUS, TUMOR_SITE_CURATED) %>% mutate(TMB = TMB_NONSYNONYMOUS, SITE_OF_TUMOR_TISSUE = TUMOR_SITE_CURATED, Study = "Glioblastoma CPTAC/Cell 2021", METASTATIC_SITE_PATIENT = NA, CANCER_TYPE = ifelse(CANCER_TYPE == "[Not Available]", NA, CANCER_TYPE)) %>% select(-c(TUMOR_SITE_CURATED, TMB_NONSYNONYMOUS)) %>% group_by(PATIENT_ID) %>% mutate(Code_frequency= n(), TUMOR_PURITY = NA) # checked and no patients with multiple samples
+
+Glioblastoma_data <- merge(Glioblastoma_data_clinical, Glioblastoma_data_sample, by = c("PATIENT_ID"))
+
+head(Glioblastoma_data)
+```
+
+## Colorectal Cancer MSK/JNCI 2021
+```{r}
+Colorectal_data_clinical <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/Colorectal_data_clinical_patient.csv")
+Colorectal_data_clinical <- Colorectal_data_clinical %>% select(PATIENT_ID, BMI, RACE, SEX, AGE_AT_DX, OS_MET_STATUS, OS_MET_MONTHS, ) %>% mutate(OS_STATUS = ifelse(OS_MET_STATUS == "1:DECEASED", 1, 0), OS_MONTHS = OS_MET_MONTHS, AGE = AGE_AT_DX, ETHNICITY = NA, RACE = ifelse(RACE == "[Not Available]", NA, RACE), SEX = ifelse(SEX == "[Not Available]", NA, SEX), BMI_CATEGORIES = ifelse(BMI < 18.5, "Underweight", ifelse(BMI < 25, "Normal_Weight", ifelse(BMI < 30 , "Overweight", "Obese")))) %>% select(-c(AGE_AT_DX, OS_MET_MONTHS, OS_MET_STATUS)) # met status and months also contained - survival from diagnosis of METS (but not the primary)
+
+Colorectal_data_sample <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/Colorectal_data_clinical_sample.csv")
+#Colorectal_data_sample %>% select(SAMPLE_ID, PATIENT_ID, PRIMARY_TUMOR_LOCATION, CANCER_TYPE, METASTATIC_SITE, CVR_TMB_SCORE, TUMOR_PURITY) %>% group_by(PATIENT_ID) %>% mutate(Code_frequency= n())  #checked and no multiple patients
+
+Colorectal_data_sample <- Colorectal_data_sample %>% select(SAMPLE_ID, PATIENT_ID, PRIMARY_TUMOR_LOCATION, METASTATIC_SITE, CANCER_TYPE, CVR_TMB_SCORE, TUMOR_PURITY) %>% group_by(PATIENT_ID) %>% mutate(Code_frequency= n(), TMB = CVR_TMB_SCORE, CANCER_TYPE = ifelse(CANCER_TYPE == "[Not Available]", NA, CANCER_TYPE), SITE_OF_TUMOR_TISSUE = PRIMARY_TUMOR_LOCATION, Study = "Colorectal Cancer MSK/JNCI 2021", METASTATIC_SITE_PATIENT = ifelse(METASTATIC_SITE == "Not Applicable", NA, METASTATIC_SITE)) %>% select(-c(PRIMARY_TUMOR_LOCATION, CVR_TMB_SCORE, METASTATIC_SITE))
+
+Colorectal_data <- merge(Colorectal_data_clinical, Colorectal_data_sample, by = c("PATIENT_ID"))
+
+head(Colorectal_data)
+```
+
+## Esophagogastric Cancer MSK/J Natl Cancer Inst 20
+```{r}
+Esophagogastric_data_clinical <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/Esophagogastric_data_clinical_patient.csv")
+
+Esophagogastric_data_clinical <- Esophagogastric_data_clinical %>% select(PATIENT_ID, AGE_AT_DIAGNOSIS, OS_STATUS, OS_MONTHS, BMI_CATEGORIES, SEX, RACE, ETHNICITY) %>% mutate(BMI = NA, BMI_CATEGORIES = ifelse(BMI_CATEGORIES == "Unknown", NA, BMI_CATEGORIES), RACE = ifelse(RACE == "[Not Available]", NA, RACE), SEX = ifelse(SEX == "[Not Available]", NA, SEX), ETHNICITY = ifelse(ETHNICITY == "[Not Available]", NA, ETHNICITY), OS_STATUS = ifelse(OS_STATUS == "1:DECEASED", 1, 0), AGE = AGE_AT_DIAGNOSIS) %>% select(-AGE_AT_DIAGNOSIS) # could not find cutoffs for BMI categories
+
+Esophagogastric_data_sample <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/Esophagogastric_data_clinical_sample.csv")
+
+Esophagogastric_data_sample <- Esophagogastric_data_sample %>% select(PATIENT_ID, SAMPLE_ID, CANCER_TYPE, TMB_NONSYNONYMOUS, PRIMARY_SITE, METASTATIC_SITE, TUMOR_PURITY, TMB_NONSYNONYMOUS) %>% mutate(SITE_OF_TUMOR_TISSUE = PRIMARY_SITE, TMB = TMB_NONSYNONYMOUS, METASTATIC_SITE_PATIENT = ifelse(METASTATIC_SITE == "Not Applicable", NA, METASTATIC_SITE)) %>% select(-c(PRIMARY_SITE, TMB_NONSYNONYMOUS, METASTATIC_SITE)) %>% group_by(PATIENT_ID) %>% mutate(Code_frequency= n(), Study = "Esophagogastric Cancer MSK/J Natl Cancer Inst 2023") 
+
+# checked and no multiple samples - filter Code_frequency > 1
+
+Esophagogastric_data <- merge(Esophagogastric_data_clinical, Esophagogastric_data_sample, by = c("PATIENT_ID"))
+
+head(Esophagogastric_data)
+```
+
+## Hepatocellular Carcinoma (MSK 2024)
+```{r}
+Hepatocellular <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/Hepatocellular Carcinoma.csv") # no option to download full file
+# `Fraction Genome Altered` can be added after figure out what to do about others
+Hepatocellular_data <- Hepatocellular %>% select(`Patient ID`, `Sample ID`, `Cancer Type`, BMI, Age, Race, Sex, Ethnicity, `Metastatic Site`, `Overall Survival (Months)`, `Overall Survival Status`, `Primary Tumor Site`, `TMB (nonsynonymous)`, `Tumor Purity`) %>% mutate(PATIENT_ID = `Patient ID`, SAMPLE_ID = `Sample ID`, SEX = Sex, RACE = Race, ETHNICITY = Ethnicity, BMI_CATEGORIES = ifelse(BMI < 18.5, "Underweight", ifelse(BMI < 25, "Normal_Weight", ifelse(BMI < 30, "Overweight", "Obese"))), OS_STATUS = ifelse(`Overall Survival Status` == "1:DECEASED", 1, 0), OS_MONTHS = `Overall Survival (Months)`, CANCER_TYPE = `Cancer Type`, SITE_OF_TUMOR_TISSUE = `Primary Tumor Site`, AGE = Age, TMB = `TMB (nonsynonymous)`, TUMOR_PURITY = `Tumor Purity`, TMB = `TMB (nonsynonymous)`, METASTATIC_SITE_PATIENT = ifelse(`Metastatic Site` == "Not Applicable", NA, `Metastatic Site`), Study = "Hepatocellular Carcinoma (MSK 2024)")  %>% select(-c(`Patient ID`, `Sample ID`, `Cancer Type`, Age, `Metastatic Site`, `Overall Survival (Months)`, `Overall Survival Status`, Sex, Race, Ethnicity, `Primary Tumor Site`, `TMB (nonsynonymous)`, `Tumor Purity`)) %>% group_by(PATIENT_ID) %>% mutate(Code_frequency= n()) 
+
+head(Hepatocellular_data)
+```
+
+Problem: only see fraction genome altered when download the set from select on site (not seen when combine the two files in the official folder - I thought perhaps it was under a different variable name but checked and not found)
+
+
+## Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (TCGA, Firehose Legacy)
+
+```{r}
+cervical_clinical_patient <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/cervical_data_clinical_patient.csv")
+
+cervical_clinical_patient <- cervical_clinical_patient %>% select(PATIENT_ID, SEX, HEIGHT, WEIGHT, RACE, ETHNICITY, AGE, SITE_OF_TUMOR_TISSUE, OS_STATUS, OS_MONTHS) %>% mutate(BMI = as.numeric(WEIGHT)/(as.numeric(HEIGHT)/100)^2, BMI_CATEGORIES = ifelse(BMI < 18.5, "Underweight", ifelse(BMI < 25, "Normal_Weight", ifelse(BMI < 30, "Overweight", "Obese"))), METASTATIC_SITE_PATIENT = NA, TUMOR_PURITY = NA, RACE = ifelse(RACE == "[Not Available]", NA, RACE), SEX = ifelse(SEX == "[Not Available]", NA, SEX), ETHNICITY = ifelse(ETHNICITY == "[Not Available]", NA, ETHNICITY), Study = "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (TCGA, Firehose Legacy)", OS_STATUS = ifelse(OS_STATUS == "1:DECEASED", 1, 0)) %>% select(-c(HEIGHT, WEIGHT))
+
+cervical_clinical_sample <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/cervical_data_clinical_sample.csv")
+
+cervical_clinical_sample <- cervical_clinical_sample %>% select(PATIENT_ID, SAMPLE_ID, CANCER_TYPE, TMB_NONSYNONYMOUS) %>% group_by(PATIENT_ID) %>% mutate(TMB = TMB_NONSYNONYMOUS, Code_frequency= n(), CANCER_TYPE = ifelse(CANCER_TYPE == "[Not Available]", NA, CANCER_TYPE)) %>% select(-TMB_NONSYNONYMOUS)
+
+cervical_data <- merge(cervical_clinical_patient, cervical_clinical_sample, by = "PATIENT_ID") %>% filter(!(PATIENT_ID == "TCGA-HM-A6W2" & CANCER_TYPE == "Cervical Cancer, NOS" | PATIENT_ID == "TCGA-UC-A7PG" & CANCER_TYPE == "Cervical Cancer, NOS"))
+head(cervical_data)
+# same patient, different cancer type - two cases of this where one is a more specific form of cancer perhaps diagnosed later but all other numbers are the same
+```
+
+## Intrahepatic Cholangiocarcinoma (MSK, Hepatology 2021)
+
+```{r}
+Cholangiocarcinoma_patient <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/Cholangiocarcinoma_data_clinical_patient.csv")
+Cholangiocarcinoma_patient <- Cholangiocarcinoma_patient %>% select(PATIENT_ID, AGE, SEX, BMI, OS_MONTHS, OS_STATUS) %>% mutate(BMI_CATEGORIES = ifelse(BMI < 18.5, "Underweight", ifelse(BMI < 25, "Normal_Weight", ifelse(BMI < 30, "Overweight", "Obese"))), RACE = NA, TUMOR_PURITY = NA, SEX = ifelse(SEX == "[Not Available]", NA, SEX), ETHNICITY = NA, SITE_OF_TUMOR_TISSUE = "intrahepatic cholangiocarcinoma", METASTATIC_SITE_PATIENT = NA, CANCER_TYPE = "Liver", OS_STATUS = ifelse(OS_STATUS == "1:DECEASED", 1, 0), Study = "Intrahepatic Cholangiocarcinoma (MSK, Hepatology 2021)")
+
+
+Cholangiocarcinoma_sample <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/Cholangiocarcinoma_data_clinical_sample.csv")
+Cholangiocarcinoma_sample <- Cholangiocarcinoma_sample %>% select(PATIENT_ID, SAMPLE_ID, TMB_NONSYNONYMOUS) %>% mutate(TMB = TMB_NONSYNONYMOUS) %>% select(-TMB_NONSYNONYMOUS) %>% group_by(PATIENT_ID) %>% mutate(Code_frequency= n()) # none with more than one sample
+
+Cholangiocarcinoma_data <- merge(Cholangiocarcinoma_patient, Cholangiocarcinoma_sample, by = "PATIENT_ID")
+head(Cholangiocarcinoma_data)
+
+# NOTICED LATER: many similarities with previous dataset and other dataset has more info (otherwise same when include info in this study - for about 200 cases)
+same_liver_patients <- merge(Hepatocellular_data, Cholangiocarcinoma_data, by = "PATIENT_ID")
+
+Cholangiocarcinoma_data <- Cholangiocarcinoma_data %>% filter(!(PATIENT_ID %in% same_liver_patients$PATIENT_ID))
+```
+
+## Kidney Renal Papillary Cell Carcinoma (TCGA, Firehose Legacy)
+
+```{r}
+kidney_patient <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/kidney_data_clinical_patient.csv")
+kidney_patient <- kidney_patient %>% select(PATIENT_ID, SEX, RACE, ETHNICITY, AGE, OS_STATUS, OS_MONTHS, SITE_OF_TUMOR_TISSUE, HEIGHT, WEIGHT) %>% mutate(BMI = as.numeric(WEIGHT)/(as.numeric(HEIGHT)/100)^2, BMI_CATEGORIES = ifelse(BMI < 18.5, "Underweight", ifelse(BMI < 25, "Normal_Weight", ifelse(BMI < 30, "Overweight", "Obese"))), RACE = ifelse(RACE == "[Not Available]", NA, RACE), SEX = ifelse(SEX == "[Not Available]", NA, SEX), ETHNICITY = ifelse(ETHNICITY == "[Not Available]", NA, ETHNICITY), OS_STATUS = ifelse(OS_STATUS == "1:DECEASED", 1, 0), Study = "Kidney Renal Papillary Cell Carcinoma (TCGA, Firehose Legacy)", TUMOR_PURITY = NA, METASTATIC_SITE_PATIENT = NA) %>% select(-c(HEIGHT, WEIGHT))
+
+kidney_sample <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/kidney_data_clinical_sample.csv")
+kidney_sample <- kidney_sample %>% select(PATIENT_ID, SAMPLE_ID, CANCER_TYPE, TMB_NONSYNONYMOUS) %>% mutate(TMB = TMB_NONSYNONYMOUS, CANCER_TYPE = ifelse(CANCER_TYPE == "[Not Available]", NA, CANCER_TYPE)) %>% select(-TMB_NONSYNONYMOUS) %>% group_by(PATIENT_ID) %>% mutate(Code_frequency= n()) %>% filter(!(PATIENT_ID == "TCGA-UZ-A9PS" & is.na(TMB) == TRUE)) # one sample same patient but no other TMB/different data
+
+kidney_data <- merge(kidney_patient, kidney_sample, by = "PATIENT_ID")
+head(kidney_data)
+```
+
+## Skin Cutaneous Melanoma (TCGA, PanCancer Atlas)
+
+```{r}
+skin_patient <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/skin_data_clinical_patient.csv")
+skin_patient <- skin_patient %>% select(PATIENT_ID, SEX, HEIGHT, WEIGHT, RACE, ETHNICITY, AGE, METASTATIC_SITE_PATIENT, TUMOR_SITE, OS_STATUS, OS_MONTHS) %>% mutate(BMI = as.numeric(WEIGHT)/(as.numeric(HEIGHT)/100)^2, BMI_CATEGORIES = ifelse(BMI < 18.5, "Underweight", ifelse(BMI < 25, "Normal_Weight", ifelse(BMI < 30, "Overweight", "Obese"))), RACE = ifelse(RACE == "[Not Available]", NA, RACE), SEX = ifelse(SEX == "[Not Available]", NA, SEX), ETHNICITY = ifelse(ETHNICITY == "[Not Available]", NA, ETHNICITY), OS_STATUS = ifelse(OS_STATUS == "1:DECEASED", 1, 0), SITE_OF_TUMOR_TISSUE = TUMOR_SITE, TUMOR_PURITY = NA, Study = "Skin Cutaneous Melanoma (TCGA, PanCancer Atlas)") %>% select(-c(HEIGHT, WEIGHT, TUMOR_SITE))
+
+skin_sample <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/skin_data_clinical_sample.csv")
+skin_sample <- skin_sample %>% select(PATIENT_ID, SAMPLE_ID, CANCER_TYPE, TMB_NONSYNONYMOUS) %>% mutate(TMB = TMB_NONSYNONYMOUS, CANCER_TYPE = ifelse(CANCER_TYPE == "[Not Available]", NA, CANCER_TYPE)) %>% select(-TMB_NONSYNONYMOUS) %>% group_by(PATIENT_ID) %>% mutate(Code_frequency= n()) %>% filter(!((Code_frequency > 1 & is.na(TMB) == TRUE & is.na(CANCER_TYPE) == TRUE)|(PATIENT_ID == "TCGA-ER-A19T" & is.na(CANCER_TYPE) == TRUE)|(PATIENT_ID == "TCGA-ER-A2NF" & is.na(CANCER_TYPE) == TRUE)))
+
+skin_data <- merge(skin_patient, skin_sample, by = "PATIENT_ID")
+head(skin_data)
+```
+
+## Uterine Corpus Endometrial Carcinoma (TCGA, Firehose Legacy)
+
+```{r}
+uterine_patient <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/uterine_data_clinical_patient.csv")
+uterine_patient <- uterine_patient %>% select(PATIENT_ID, SEX, RACE, ETHNICITY, HEIGHT, WEIGHT, AGE, OS_STATUS, OS_MONTHS, SITE_OF_TUMOR_TISSUE) %>% mutate(BMI = as.numeric(WEIGHT)/(as.numeric(HEIGHT)/100)^2, BMI_CATEGORIES = ifelse(BMI < 18.5, "Underweight", ifelse(BMI < 25, "Normal_Weight", ifelse(BMI < 30, "Overweight", "Obese"))), RACE = ifelse(RACE == "[Not Available]", NA, RACE), SEX = ifelse(SEX == "[Not Available]", NA, SEX), ETHNICITY = ifelse(ETHNICITY == "[Not Available]", NA, ETHNICITY), OS_STATUS = ifelse(OS_STATUS == "1:DECEASED", 1, 0), METASTATIC_SITE_PATIENT = NA, TUMOR_PURITY = NA, Study = "Uterine Corpus Endometrial Carcinoma (TCGA, Firehose Legacy)
+") %>% select(-c(HEIGHT, WEIGHT))
+
+uterine_sample <- read_csv("C:/Amanda's laptop 2023/weill cornell docs/Masters Project Genome Alterations Cancer/BMI datasets/uterine_data_clinical_sample.csv")
+uterine_sample <- uterine_sample %>% select(PATIENT_ID, SAMPLE_ID, CANCER_TYPE, TMB_NONSYNONYMOUS) %>% mutate(TMB = TMB_NONSYNONYMOUS, CANCER_TYPE = ifelse(CANCER_TYPE == "[Not Available]", NA, CANCER_TYPE)) %>% select(-TMB_NONSYNONYMOUS) %>% group_by(PATIENT_ID) %>% mutate(Code_frequency= n()) %>% filter(!(PATIENT_ID == "TCGA-BK-A139" & SAMPLE_ID == "TCGA-BK-A139-02")) # same info but no TMB value for other sample
+
+uterine_data <- merge(uterine_patient, uterine_sample, by = "PATIENT_ID")
+head(uterine_data)
+```
+
+  
+# Merge Datasets (all include BMI as well as sex and race for many but smoking needs to have consistent units) 
+
+Issues with smoking: uterine/skin/hepatocellular/esophagogastric no have have, kidney/cervical/bladder has smoking history indicator/smoking history pack years/year started/year stopped, cholangiocarcinoma, Colorectal has smoker status/smoking history indicators, glioblastoma has smoking history/secondhand smoke exposure)
+
+
+```{r}
+BMI_dataset <- rbind(Bladder_data, Esophagogastric_data, Glioblastoma_data, Colorectal_data, Hepatocellular_data, cervical_data, Cholangiocarcinoma_data, kidney_data, skin_data, uterine_data)
+
+# BMI_dataset %>% group_by(PATIENT_ID) %>% mutate(Code_frequency2= n()) %>% filter(Code_frequency2 > 1)
+# if same patient but different form of cancer years later how should that be handled 
+
+head(BMI_dataset)
+
+# Current Size: 5989
+```
+
