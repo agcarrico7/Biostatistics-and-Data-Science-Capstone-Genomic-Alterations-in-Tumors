@@ -1,0 +1,903 @@
+PATIENT_ID,AGE_AT_DIAGNOSIS,RACE,SEX,ETHNICITY,OS_STATUS,OS_MONTHS,OS_MONTHS_STAGE_IV,HISTOLOGY,BMI_CATEGORIES,ECOG_PS,PRIMARY_SITE_TRI,AGE_CATEGORY,TIME_SX_DX_MONTHS,STAGE,MET_NONMET_STATUS
+P-0000062,76.21523143,White,Male,Not Hispanic or Latino,1:DECEASED,52.10387903,52.03545634,Adenocarcinoma,Overweight,NA,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0000076,18.32195961,Asian,Female,Not Hispanic or Latino,0:LIVING,,97.6690742,Signet_Diffuse,Underweight,UNKNOWN,Gastric,Early Onset,,IV,Metastatic
+P-0000086,64.9020856,White,Male,Not Hispanic or Latino,1:DECEASED,23.63576594,17.39986868,Adenocarcinoma,Normal_Weight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0000103,43.74068826,White,Male,Not Hispanic or Latino,1:DECEASED,56.57462196,27.83978989,Adenocarcinoma,Unknown,UNKNOWN,GEJ (Siewert I-II),Early Onset,,III,Non-Metastatic
+P-0000115,57.33724854,White,Female,Not Hispanic or Latino,0:LIVING,,88.73933027,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0000117,78.54507622,White,Male,Not Hispanic or Latino,1:DECEASED,32.11702827,32.07485227,Adenocarcinoma,Overweight,1,Gastric,Average Onset,,IV,Metastatic
+P-0000121,43.04537396,White,Male,Hispanic or Latino,0:LIVING,,21.20814183,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Early Onset,,IV,Metastatic
+P-0000144,32.84940827,White,Male,Not Hispanic or Latino,1:DECEASED,24.1617357,24.13000657,Adenocarcinoma,Overweight,1,Gastric,Early Onset,1.840894149,IV,Metastatic
+P-0000178,45.5998412,White,Male,Not Hispanic or Latino,1:DECEASED,50.75608153,38.50952068,Adenocarcinoma,Unknown,0,GEJ (Siewert I-II),Early Onset,,III,Non-Metastatic
+P-0000180,43.00156745,White,Female,Not Hispanic or Latino,1:DECEASED,12.19592373,12.17990808,Signet_Diffuse,Obese,1,Gastric,Early Onset,0.821827745,IV,Metastatic
+P-0000186,59.83695764,White,Male,Not Hispanic or Latino,1:DECEASED,5.325443787,5.318450427,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Average Onset,,IV,Metastatic
+P-0000221,33.07117874,White,Male,Not Hispanic or Latino,1:DECEASED,27.28468113,27.24885095,Adenocarcinoma,Obese,1,Esophageal,Early Onset,2.038132807,IV,Metastatic
+P-0000249,59.74113089,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,36.226167,36.17859488,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0000282,51.12219963,Black or African AMERICAN,Female,Not Hispanic or Latino,1:DECEASED,34.97698882,34.93105712,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0000291,70.1669667,Other,Female,Hispanic or Latino,1:DECEASED,37.44247206,12.67235719,Signet_Diffuse,Normal_Weight,1,Gastric,Average Onset,6.41025641,III,Non-Metastatic
+P-0000342,69.00894611,Asian,Male,Not Hispanic or Latino,1:DECEASED,17.71860618,17.69533815,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,1.906640368,IV,Metastatic
+P-0000369,51.28932604,White,Female,Not Hispanic or Latino,1:DECEASED,40.2695595,40.21667761,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,6.114398422,IV,Metastatic
+P-0000406,72.92415313,White,Male,Not Hispanic or Latino,1:DECEASED,17.85009862,17.82665791,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0000413,60.72403951,White,Female,Not Hispanic or Latino,1:DECEASED,14.66140697,14.64215364,Adenocarcinoma,Normal_Weight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0000417,64.97600909,Black or African AMERICAN,Female,Not Hispanic or Latino,1:DECEASED,13.64234057,13.62442548,Other,Overweight,NA,Gastric,Average Onset,,IV,Metastatic
+P-0000436,46.69215202,White,Female,Not Hispanic or Latino,1:DECEASED,45.2991453,45.23965857,Adenocarcinoma,Normal_Weight,UNKNOWN,Esophageal,Early Onset,,IV,Metastatic
+P-0000444,59.68363485,White,Male,Not Hispanic or Latino,1:DECEASED,40.66403682,32.17334209,Adenocarcinoma,Obese,0,Esophageal,Average Onset,2.498356345,III,Non-Metastatic
+P-0000446,49.90383102,White,Male,Not Hispanic or Latino,0:LIVING,,8.732764281,Adenocarcinoma,Obese,UNKNOWN,Esophageal,Early Onset,,IV,Metastatic
+P-0000481,46.44574039,White,Male,Hispanic or Latino,1:DECEASED,36.25904011,15.39724228,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Early Onset,,III,Non-Metastatic
+P-0000485,72.2068215,White,Male,Hispanic or Latino,1:DECEASED,93.06377383,84.76690742,Adenocarcinoma,Unknown,UNKNOWN,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0000523,47.99277193,Other,Male,Hispanic or Latino,0:LIVING,,4.530531845,Signet_Diffuse,Normal_Weight,1,Gastric,Early Onset,,III,Non-Metastatic
+P-0000538,71.77685602,White,Male,Not Hispanic or Latino,0:LIVING,,103.6112935,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,0,IV,Metastatic
+P-0000553,50.7497302,White,Male,Not Hispanic or Latino,1:DECEASED,24.68770546,24.65528562,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0000605,61.96967312,White,Female,Not Hispanic or Latino,1:DECEASED,4.602235371,4.596191727,Signet_Diffuse,Obese,1,Gastric,Average Onset,2.268244576,IV,Metastatic
+P-0000716,56.94572784,White,Male,Not Hispanic or Latino,1:DECEASED,16.53517423,16.51346028,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Average Onset,,IV,Metastatic
+P-0000722,57.06060585,White,Male,Not Hispanic or Latino,1:DECEASED,9.237343853,9.225213395,Signet_Diffuse,Overweight,0,GEJ (Siewert I-II),Average Onset,0.460223537,IV,Metastatic
+P-0000730,55.36584142,White,Male,Not Hispanic or Latino,1:DECEASED,29.12557528,29.08732764,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,2.892833662,IV,Metastatic
+P-0000751,32.38943989,Asian,Male,Not Hispanic or Latino,0:LIVING,,28.36506894,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Early Onset,1.54503616,II,Non-Metastatic
+P-0000776,71.43473172,White,Female,Not Hispanic or Latino,1:DECEASED,4.437869822,4.432042022,Adenocarcinoma,Normal_Weight,UNKNOWN,GEJ (Siewert I-II),Average Onset,0.460223537,IV,Metastatic
+P-0000787,23.77883644,White,Female,Not Hispanic or Latino,1:DECEASED,4.437869822,4.432042022,Adenocarcinoma,Obese,1,Esophageal,Early Onset,4.536489152,IV,Metastatic
+P-0000793,53.17825372,White,Male,Not Hispanic or Latino,1:DECEASED,15.68047337,15.65988181,Adenocarcinoma,Obese,0,Esophageal,Average Onset,1.314924392,IV,Metastatic
+P-0000797,39.73524439,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,13.0834977,13.06631648,Signet_Diffuse,Underweight,UNKNOWN,Gastric,Early Onset,3.977646285,IV,Metastatic
+P-0000814,45.75042609,Asian,Female,Not Hispanic or Latino,1:DECEASED,25.93688363,25.90282337,Signet_Diffuse,Underweight,1,Gastric,Early Onset,10.48652202,IV,Metastatic
+P-0000870,73.43055185,White,Male,Not Hispanic or Latino,1:DECEASED,29.48717949,29.44845699,Adenocarcinoma,Obese,NA,Esophageal,Average Onset,,IV,Metastatic
+P-0000899,65.51252478,White,Male,Not Hispanic or Latino,1:DECEASED,6.903353057,6.89428759,Adenocarcinoma,Obese,UNKNOWN,Esophageal,Average Onset,,IV,Metastatic
+P-0000938,69.57021705,White,Male,Not Hispanic or Latino,1:DECEASED,37.9355687,37.88575181,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,2.498356345,IV,Metastatic
+P-0000977,65.3619399,White,Male,Not Hispanic or Latino,1:DECEASED,11.14398422,11.12934997,Adenocarcinoma,Obese,1,Esophageal,Average Onset,1.479289941,IV,Metastatic
+P-0000991,55.43451725,White,Female,Not Hispanic or Latino,1:DECEASED,63.70808679,53.15167433,Adenocarcinoma,Unknown,NA,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0001040,49.20566473,White,Male,Not Hispanic or Latino,1:DECEASED,54.47074293,9.290873276,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Early Onset,,III,Non-Metastatic
+P-0001047,57.63282842,White,Male,Not Hispanic or Latino,1:DECEASED,51.15055884,51.08338805,Adenocarcinoma,Obese,NA,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0001077,64.67483932,White,Male,Not Hispanic or Latino,1:DECEASED,19.95397765,8.601444517,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0001136,48.62237646,White,Male,Hispanic or Latino,1:DECEASED,32.57725181,32.53447144,Adenocarcinoma,Overweight,1,Gastric,Early Onset,,IV,Metastatic
+P-0001137,40.2089023,White,Male,Not Hispanic or Latino,0:LIVING,,33.78200919,Adenocarcinoma,Overweight,0,Esophageal,Early Onset,0.887573964,IV,Metastatic
+P-0001158,73.53185441,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,30.04602235,30.00656599,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,1.61078238,IV,Metastatic
+P-0001172,68.27781086,White,Female,Not Hispanic or Latino,1:DECEASED,51.93951348,51.87130663,Signet_Diffuse,Normal_Weight,1,Gastric,Average Onset,15.87771203,IV,Metastatic
+P-0001180,44.19529491,White,Female,Not Hispanic or Latino,1:DECEASED,26.75871137,26.7235719,Signet_Diffuse,Obese,2,Gastric,Early Onset,1.347797502,IV,Metastatic
+P-0001194,87.86764958,White,Male,Not Hispanic or Latino,NA,4.076265615,4.070912672,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,1.282051282,IV,Metastatic
+P-0001197,69.34570867,White,Female,Not Hispanic or Latino,1:DECEASED,23.33990796,23.30925804,Adenocarcinoma,Obese,1,Gastric,Average Onset,0.525969757,IV,Metastatic
+P-0001222,53.98057455,White,Male,Not Hispanic or Latino,1:DECEASED,15.97633136,15.95535128,Signet_Diffuse,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,2.761341223,IV,Metastatic
+P-0001231,40.9892058,White,Male,Not Hispanic or Latino,0:LIVING,,86.24425476,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Early Onset,3.517422748,IV,Metastatic
+P-0001260,23.10508315,Asian,Female,Not Hispanic or Latino,1:DECEASED,31.45956607,31.41825345,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Early Onset,2.235371466,IV,Metastatic
+P-0001275,42.41029362,White,Male,Not Hispanic or Latino,1:DECEASED,20.51282051,20.48588313,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Early Onset,1.972386588,IV,Metastatic
+P-0001298,58.16135855,White,Male,Not Hispanic or Latino,1:DECEASED,47.43589744,47.37360473,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0001323,47.77921518,White,Male,Not Hispanic or Latino,1:DECEASED,9.59894806,9.586342745,Adenocarcinoma,Obese,1,Esophageal,Early Onset,6.640368179,IV,Metastatic
+P-0001356,69.17322053,White,Female,Not Hispanic or Latino,1:DECEASED,33.26758711,33.2239002,Signet_Diffuse,Overweight,0,Gastric,Average Onset,0,IV,Metastatic
+P-0001393,77.42789608,Other,Male,Hispanic or Latino,1:DECEASED,20.77580539,20.74852265,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0001495,55.01265141,White,Male,Not Hispanic or Latino,1:DECEASED,31.62393162,31.58240315,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Average Onset,3.813280736,IV,Metastatic
+P-0001543,48.52677787,White,Male,Not Hispanic or Latino,1:DECEASED,41.12426036,36.93368352,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Early Onset,3.616042078,III,Non-Metastatic
+P-0001551,48.82509566,Black or African AMERICAN,Female,Not Hispanic or Latino,1:DECEASED,22.18934911,22.16021011,Signet_Diffuse,Normal_Weight,1,Gastric,Early Onset,3.18869165,IV,Metastatic
+P-0001583,54.81563619,Other,Male,Hispanic or Latino,0:LIVING,,10.30860144,Adenocarcinoma,Overweight,1,Gastric,Average Onset,0.887573964,IV,Metastatic
+P-0001586,57.03607877,White,Male,Not Hispanic or Latino,1:DECEASED,49.17817226,49.1135916,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Average Onset,2.399737015,IV,Metastatic
+P-0001667,72.52715662,White,Female,Not Hispanic or Latino,1:DECEASED,12.95200526,12.93499672,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,5.621301775,IV,Metastatic
+P-0001699,78.38639169,White,Female,Not Hispanic or Latino,1:DECEASED,17.61998685,17.59684833,Adenocarcinoma,Overweight,1,Gastric,Average Onset,,IV,Metastatic
+P-0001733,70.13970171,White,Male,Not Hispanic or Latino,1:DECEASED,48.12623274,48.06303349,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Average Onset,2.465483235,IV,Metastatic
+P-0001764,52.05582592,White,Female,Not Hispanic or Latino,1:DECEASED,5.818540434,5.81089954,Adenocarcinoma,Overweight,1,Gastric,Average Onset,2.005259698,IV,Metastatic
+P-0001850,69.89329007,White,Male,Not Hispanic or Latino,1:DECEASED,47.86324786,47.80039396,Adenocarcinoma,Obese,1,Gastric,Average Onset,21.8277449,IV,Metastatic
+P-0001855,62.96364744,White,Male,Not Hispanic or Latino,1:DECEASED,57.0348455,56.95994747,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,2.629848784,IV,Metastatic
+P-0002027,75.7961035,White,Male,Not Hispanic or Latino,1:DECEASED,3.714661407,3.709783322,Signet_Diffuse,Overweight,1,Gastric,Average Onset,1.873767258,IV,Metastatic
+P-0002044,71.47306242,White,Male,Not Hispanic or Latino,1:DECEASED,15.28599606,15.26592252,Adenocarcinoma,Normal_Weight,UNKNOWN,Esophageal,Average Onset,,IV,Metastatic
+P-0002072,53.32336279,Asian,Male,Not Hispanic or Latino,1:DECEASED,7.823800131,7.813525936,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,1.150558843,IV,Metastatic
+P-0002132,40.93444766,White,Male,Not Hispanic or Latino,1:DECEASED,20.01972387,15.65988181,Adenocarcinoma,Overweight,0,Gastric,Early Onset,0.03287311,III,Non-Metastatic
+P-0002152,70.56955311,White,Male,Not Hispanic or Latino,1:DECEASED,4.076265615,4.070912672,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,0.756081525,IV,Metastatic
+P-0002161,68.72420378,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,41.05851414,NA,Other,Unknown,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0002192,83.26785172,White,Female,Not Hispanic or Latino,1:DECEASED,11.04536489,11.03086014,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,2.794214333,IV,Metastatic
+P-0002208,53.51227837,White,Male,Not Hispanic or Latino,1:DECEASED,36.16042078,36.112935,Adenocarcinoma,Unknown,UNKNOWN,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0002325,73.59482627,White,Female,Not Hispanic or Latino,1:DECEASED,7.856673241,7.846355877,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,2.103879027,IV,Metastatic
+P-0002428,65.49335943,White,Male,Not Hispanic or Latino,1:DECEASED,13.37935569,13.36178595,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Average Onset,8.974358974,IV,Metastatic
+P-0002454,55.21537061,White,Male,Not Hispanic or Latino,0:LIVING,,77.80695995,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,IV,Metastatic
+P-0002465,41.19728673,Other,Male,Not Hispanic or Latino,1:DECEASED,21.4661407,21.43795141,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Early Onset,,IV,Metastatic
+P-0002468,48.03110262,White,Female,Not Hispanic or Latino,1:DECEASED,7.725180802,7.715036113,Signet_Diffuse,Obese,UNKNOWN,Gastric,Early Onset,5.917159763,IV,Metastatic
+P-0002495,38.36617681,Asian,Male,Not Hispanic or Latino,1:DECEASED,13.21499014,8.010505581,Adenocarcinoma,Overweight,0,Gastric,Early Onset,23.80013149,III,Non-Metastatic
+P-0002549,47.20414063,Asian,Female,Not Hispanic or Latino,1:DECEASED,8.579881657,8.568614576,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Early Onset,23.53714661,IV,Metastatic
+P-0002553,46.14206087,Asian,Female,Not Hispanic or Latino,1:DECEASED,20.1183432,20.09192383,Signet_Diffuse,Overweight,1,Gastric,Early Onset,2.366863905,IV,Metastatic
+P-0002710,66.35306223,White,Male,Not Hispanic or Latino,1:DECEASED,23.43852728,23.40774787,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0002737,70.19993566,White,Male,Not Hispanic or Latino,1:DECEASED,154.8980934,130.9586343,Adenocarcinoma,Normal_Weight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0002743,71.62376138,White,Male,Not Hispanic or Latino,1:DECEASED,33.69493754,23.37491793,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,0.591715976,III,Non-Metastatic
+P-0002801,71.18010637,White,Male,Not Hispanic or Latino,1:DECEASED,33.66206443,21.40512147,Adenocarcinoma,Overweight,0,Gastric,Average Onset,0.821827745,III,Non-Metastatic
+P-0002845,67.59607202,White,Male,Not Hispanic or Latino,0:LIVING,,80.89297439,Adenocarcinoma,Obese,1,Gastric,Average Onset,3.451676529,IV,Metastatic
+P-0003027,33.77208293,Other,Female,Not Hispanic or Latino,1:DECEASED,52.89283366,52.82337492,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Early Onset,,IV,Metastatic
+P-0003048,47.8257596,White,Male,Not Hispanic or Latino,0:LIVING,,16.48063033,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Early Onset,3.517422748,III,Non-Metastatic
+P-0003078,69.83305612,White,Male,Not Hispanic or Latino,1:DECEASED,2.596975674,2.593565332,Adenocarcinoma,Obese,1,Esophageal,Average Onset,3.944773176,IV,Metastatic
+P-0003215,56.17090016,White,Male,Not Hispanic or Latino,1:DECEASED,44.21433268,19.13985555,Adenocarcinoma,Overweight,1,Gastric,Average Onset,,III,Non-Metastatic
+P-0003248,66.99110865,White,Female,Not Hispanic or Latino,1:DECEASED,28.82971729,28.79185817,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,,IV,Metastatic
+P-0003426,55.56867469,White,Male,Not Hispanic or Latino,1:DECEASED,7.297830375,7.288246881,Adenocarcinoma,Overweight,1,Gastric,Average Onset,0.986193294,IV,Metastatic
+P-0003432,67.97127936,White,Male,Not Hispanic or Latino,1:DECEASED,23.8330046,7.550886408,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,4.010519395,III,Non-Metastatic
+P-0003466,72.49703964,White,Female,Not Hispanic or Latino,1:DECEASED,10.51939513,NA,Other,Obese,0,Gastric,Average Onset,1.051939513,III,Non-Metastatic
+P-0003477,66.98563283,White,Male,Not Hispanic or Latino,1:DECEASED,7.659434583,7.649376231,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,1.314924392,IV,Metastatic
+P-0003516,47.45329017,Asian,Female,Not Hispanic or Latino,1:DECEASED,4.635108481,4.629021668,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Early Onset,11.50558843,IV,Metastatic
+P-0003536,61.2661451,White,Male,Not Hispanic or Latino,1:DECEASED,51.70940171,27.28168089,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0003543,73.81385883,Asian,Male,Not Hispanic or Latino,1:DECEASED,20.67718606,20.65003283,Squamous_Cell_Carcinoma,Normal_Weight,UNKNOWN,Esophageal,Average Onset,,IV,Metastatic
+P-0003559,47.33841215,Asian,Female,Not Hispanic or Latino,0:LIVING,,34.86539724,Adenocarcinoma,Unknown,0,Gastric,Early Onset,,IV,Metastatic
+P-0003630,63.61526931,White,Female,Not Hispanic or Latino,1:DECEASED,43.58974359,29.0544977,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Average Onset,,I,Non-Metastatic
+P-0003650,68.66385575,White,Male,Not Hispanic or Latino,0:LIVING,,82.07485227,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0003679,40.11581347,White,Male,Not Hispanic or Latino,1:DECEASED,16.765286,16.74326986,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Early Onset,1.840894149,IV,Metastatic
+P-0003713,53.98605036,White,Male,Not Hispanic or Latino,0:LIVING,,79.12015758,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,4.240631164,IV,Metastatic
+P-0003875,43.89686304,Asian,Female,Not Hispanic or Latino,0:LIVING,,30.23637557,Other,Obese,1,GEJ (Siewert I-II),Early Onset,,III,Non-Metastatic
+P-0003892,72.748813,White,Female,Not Hispanic or Latino,1:DECEASED,32.80736358,32.76428102,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,4.536489152,IV,Metastatic
+P-0003894,58.73620494,White,Male,Not Hispanic or Latino,1:DECEASED,12.82051282,12.80367695,Adenocarcinoma,Normal_Weight,UNKNOWN,Esophageal,Average Onset,,IV,Metastatic
+P-0003909,45.01940492,White,Male,Not Hispanic or Latino,0:LIVING,,6.139198949,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Early Onset,,IV,Metastatic
+P-0003914,61.18400789,White,Male,Not Hispanic or Latino,1:DECEASED,9.368836292,9.356533158,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,3.780407627,IV,Metastatic
+P-0003915,30.78776429,White,Male,Not Hispanic or Latino,1:DECEASED,26.33136095,26.29678267,Signet_Diffuse,Obese,UNKNOWN,Gastric,Early Onset,2.662721893,IV,Metastatic
+P-0003930,70.79965137,White,Male,Not Hispanic or Latino,1:DECEASED,15.22024984,15.20026264,Signet_Diffuse,Overweight,1,GEJ (Siewert I-II),Average Onset,8.0539119,IV,Metastatic
+P-0003944,69.48545601,White,Male,Not Hispanic or Latino,1:DECEASED,26.33136095,26.29678267,Adenocarcinoma,Overweight,NA,Gastric,Average Onset,,IV,Metastatic
+P-0004016,54.57207654,White,Male,Not Hispanic or Latino,1:DECEASED,11.93293886,11.91726855,Other,Obese,0,GEJ (Siewert I-II),Average Onset,0.821827745,IV,Metastatic
+P-0004025,77.62240156,Other,Male,Not Hispanic or Latino,1:DECEASED,8.251150559,8.240315167,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,4.142011834,IV,Metastatic
+P-0004028,81.98377334,White,Female,Not Hispanic or Latino,NA,,NA,Adenocarcinoma,Obese,2,Esophageal,Average Onset,,III,Non-Metastatic
+P-0004043,74.40798465,White,Male,Not Hispanic or Latino,1:DECEASED,39.54635108,28.59487853,Adenocarcinoma,Obese,1,Gastric,Average Onset,0.131492439,III,Non-Metastatic
+P-0004044,56.20101713,Asian,Male,Not Hispanic or Latino,0:LIVING,,18.08929744,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,0.690335306,IV,Metastatic
+P-0004076,49.76693567,White,Female,Not Hispanic or Latino,0:LIVING,,81.97636244,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Early Onset,1.742274819,III,Non-Metastatic
+P-0004086,51.52455789,Asian,Female,Not Hispanic or Latino,1:DECEASED,7.396449704,7.386736704,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Average Onset,1.742274819,IV,Metastatic
+P-0004116,75.46207885,White,Male,Not Hispanic or Latino,1:DECEASED,36.55489809,36.50689429,Adenocarcinoma,Obese,1,Esophageal,Average Onset,1.019066404,IV,Metastatic
+P-0004244,39.02338857,Other,Female,Not Hispanic or Latino,1:DECEASED,22.91255753,22.88246881,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Early Onset,11.27547666,IV,Metastatic
+P-0004268,62.25726743,White,Male,Not Hispanic or Latino,1:DECEASED,10.12491782,10.1116218,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0004326,56.33255075,White,Female,Not Hispanic or Latino,1:DECEASED,10.22353715,10.21011162,Adenocarcinoma,Normal_Weight,2,Gastric,Average Onset,4.602235371,IV,Metastatic
+P-0004387,83.64568289,White,Male,Not Hispanic or Latino,1:DECEASED,41.05851414,NA,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,,II,Non-Metastatic
+P-0004407,73.89873395,White,Male,Not Hispanic or Latino,1:DECEASED,55.55555556,55.48260013,Signet_Diffuse,Obese,0,Gastric,Average Onset,1.413543721,IV,Metastatic
+P-0004438,81.06121276,White,Male,Not Hispanic or Latino,1:DECEASED,62.26166995,NA,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,,I,Non-Metastatic
+P-0004533,51.81762801,Black or African AMERICAN,Female,Not Hispanic or Latino,1:DECEASED,14.89151874,2.757715036,Signet_Diffuse,Obese,NA,Gastric,Average Onset,2.498356345,III,Non-Metastatic
+P-0004541,54.41304978,White,Male,Not Hispanic or Latino,0:LIVING,,9.78332239,Signet_Diffuse,Obese,0,GEJ (Siewert I-II),Average Onset,0.854700855,IV,Metastatic
+P-0004542,43.839367,White,Male,Not Hispanic or Latino,1:DECEASED,22.58382643,4.103742613,Adenocarcinoma,Obese,UNKNOWN,Gastric,Early Onset,0.098619329,III,Non-Metastatic
+P-0004546,76.05905665,Black or African AMERICAN,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,0.427350427,I,Non-Metastatic
+P-0004551,53.86832036,Other,Female,Not Hispanic or Latino,1:DECEASED,46.90992768,46.84832567,Adenocarcinoma,Overweight,0,Gastric,Average Onset,12.78763971,IV,Metastatic
+P-0004552,47.32460854,White,Male,Not Hispanic or Latino,1:DECEASED,18.77054569,18.74589626,Other,Obese,1,Gastric,Early Onset,1.939513478,IV,Metastatic
+P-0004557,35.14925016,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Obese,UNKNOWN,Gastric,Early Onset,0,II,Non-Metastatic
+P-0004605,41.57249407,White,Male,Not Hispanic or Latino,1:DECEASED,38.52728468,38.47669074,Adenocarcinoma,Obese,1,Esophageal,Early Onset,0.624589086,IV,Metastatic
+P-0004616,69.91530741,White,Male,Not Hispanic or Latino,1:DECEASED,9.533201841,9.520682863,Adenocarcinoma,Obese,0,Esophageal,Average Onset,2.596975674,IV,Metastatic
+P-0004647,73.08568964,White,Male,Not Hispanic or Latino,1:DECEASED,3.122945431,3.118844386,Adenocarcinoma,Overweight,1,Gastric,Average Onset,7.166337936,IV,Metastatic
+P-0004680,40.03093835,White,Male,Not Hispanic or Latino,1:DECEASED,17.61998685,17.59684833,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Early Onset,,IV,Metastatic
+P-0004689,53.44942059,White,Male,Not Hispanic or Latino,1:DECEASED,6.213017751,6.204858831,Signet_Diffuse,Overweight,2,Gastric,Average Onset,2.202498356,IV,Metastatic
+P-0004958,61.38102311,Other,Female,Hispanic or Latino,0:LIVING,,73.14510834,Adenocarcinoma,Obese,2,Esophageal,Average Onset,0.723208416,IV,Metastatic
+P-0004998,63.43719127,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,21.43326759,21.40512147,Adenocarcinoma,Overweight,1,Gastric,Average Onset,3.451676529,IV,Metastatic
+P-0005019,53.36192165,White,Female,Not Hispanic or Latino,1:DECEASED,6.837606838,6.828627708,Signet_Diffuse,Normal_Weight,2,Gastric,Average Onset,0.460223537,IV,Metastatic
+P-0005058,78.40532888,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0005060,67.53880413,Asian,Female,Not Hispanic or Latino,0:LIVING,,73.37491793,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,1.282051282,IV,Metastatic
+P-0005167,62.13406162,White,Male,Not Hispanic or Latino,0:LIVING,,49.63887065,Adenocarcinoma,Obese,1,Gastric,Average Onset,2.333990796,IV,Metastatic
+P-0005168,59.99838007,White,Male,Hispanic or Latino,0:LIVING,,8.732764281,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,1.019066404,IV,Metastatic
+P-0005300,80.8449181,White,Male,Not Hispanic or Latino,1:DECEASED,26.59434583,21.93040053,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,IV,Metastatic
+P-0005312,70.72013799,White,Male,Not Hispanic or Latino,1:DECEASED,7.692307692,7.682206172,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,4.635108481,IV,Metastatic
+P-0005488,57.00048598,White,Male,Not Hispanic or Latino,1:DECEASED,41.09138725,41.03742613,Adenocarcinoma,Overweight,2,GEJ (Siewert I-II),Average Onset,4.273504274,IV,Metastatic
+P-0005500,61.39471265,White,Male,Not Hispanic or Latino,1:DECEASED,19.19789612,7.452396586,Adenocarcinoma,Obese,1,Esophageal,Average Onset,2.103879027,III,Non-Metastatic
+P-0005618,66.14783329,White,Male,Not Hispanic or Latino,0:LIVING,11.34122288,11.32632961,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0005637,58.32300914,Asian,Male,Not Hispanic or Latino,0:LIVING,,17.36703874,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,0.06574622,II,Non-Metastatic
+P-0005683,63.97941094,Other,Male,Not Hispanic or Latino,0:LIVING,,90.34799737,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,1.808021039,IV,Metastatic
+P-0005702,57.79447901,White,Female,Not Hispanic or Latino,1:DECEASED,5.029585799,5.022980959,Adenocarcinoma,Underweight,1,Gastric,Average Onset,0.460223537,IV,Metastatic
+P-0005709,83.61031826,Other,Male,Not Hispanic or Latino,1:DECEASED,39.84220907,39.78988838,Adenocarcinoma,Overweight,1,Gastric,Average Onset,,IV,Metastatic
+P-0005819,44.81417597,White,Male,Not Hispanic or Latino,0:LIVING,,16.41497045,Adenocarcinoma,Obese,NA,GEJ (Siewert I-II),Early Onset,,III,Non-Metastatic
+P-0005899,74.57237315,White,Male,Not Hispanic or Latino,1:DECEASED,10.97961867,3.841103086,Adenocarcinoma,Normal_Weight,NA,Gastric,Average Onset,3.418803419,III,Non-Metastatic
+P-0005919,57.52878795,White,Male,Not Hispanic or Latino,1:DECEASED,27.54766601,13.98555483,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,0.394477318,III,Non-Metastatic
+P-0005930,76.00144653,White,Male,Not Hispanic or Latino,0:LIVING,,71.70059094,Adenocarcinoma,Obese,2,Esophageal,Average Onset,0.328731098,IV,Metastatic
+P-0005984,57.04155458,White,Male,Not Hispanic or Latino,1:DECEASED,68.47468771,NA,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0005991,64.83090002,Other,Male,Not Hispanic or Latino,1:DECEASED,13.0834977,13.06631648,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,,IV,Metastatic
+P-0005993,66.47353014,White,Male,Not Hispanic or Latino,1:DECEASED,35.86456279,35.81746553,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,0,IV,Metastatic
+P-0005995,64.85554118,Other,Male,Hispanic or Latino,1:DECEASED,48.29059829,48.22718319,Adenocarcinoma,Overweight,0,Gastric,Average Onset,2.465483235,IV,Metastatic
+P-0005999,70.80238928,Other,Male,Not Hispanic or Latino,1:DECEASED,18.08021039,18.0564675,Signet_Diffuse,Underweight,1,Gastric,Average Onset,4.043392505,IV,Metastatic
+P-0006010,45.870894,White,Male,Not Hispanic or Latino,1:DECEASED,66.765286,45.92908733,Adenocarcinoma,Obese,UNKNOWN,Esophageal,Early Onset,,III,Non-Metastatic
+P-0006012,45.31783678,White,Female,Not Hispanic or Latino,1:DECEASED,,31.97636244,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Early Onset,,IV,Metastatic
+P-0006026,66.2627113,Asian,Male,Not Hispanic or Latino,1:DECEASED,31.78829717,31.74655286,Adenocarcinoma,Obese,1,Gastric,Average Onset,7.100591716,IV,Metastatic
+P-0006043,67.68368504,White,Female,Not Hispanic or Latino,1:DECEASED,25.24654832,6.401838477,Signet_Diffuse,Overweight,0,Gastric,Average Onset,,III,Non-Metastatic
+P-0006077,76.85031178,White,Female,Not Hispanic or Latino,1:DECEASED,13.28073636,13.26329613,Squamous_Cell_Carcinoma,Obese,0,Esophageal,Average Onset,,IV,Metastatic
+P-0006112,67.99592052,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,38.33004602,38.2797111,Adenocarcinoma,Unknown,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0006148,67.48107992,White,Male,Not Hispanic or Latino,1:DECEASED,37.9355687,15.75837163,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0006318,24.72056237,White,Female,Not Hispanic or Latino,1:DECEASED,12.19592373,12.17990808,Signet_Diffuse,Obese,UNKNOWN,Gastric,Early Onset,0.690335306,IV,Metastatic
+P-0006357,58.34468424,White,Male,Not Hispanic or Latino,0:LIVING,,70.78135259,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,0.920447074,IV,Metastatic
+P-0006360,36.52105565,Asian,Male,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Overweight,0,Gastric,Early Onset,0.591715976,III,Non-Metastatic
+P-0006367,65.0198156,Asian,Male,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Average Onset,,I,Non-Metastatic
+P-0006379,68.63921459,White,Male,Not Hispanic or Latino,0:LIVING,,39.10045962,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0006414,69.63581274,White,Female,Not Hispanic or Latino,0:LIVING,,60.17728168,Squamous_Cell_Carcinoma,Normal_Weight,1,Esophageal,Average Onset,,III,Non-Metastatic
+P-0006448,67.21824085,White,Male,Not Hispanic or Latino,1:DECEASED,25.14792899,25.11490479,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,3.28731098,IV,Metastatic
+P-0006475,50.47057777,Asian,Female,Not Hispanic or Latino,1:DECEASED,23.93162393,8.076165463,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Average Onset,5.752794214,II,Non-Metastatic
+P-0006519,60.68844672,White,Male,Not Hispanic or Latino,1:DECEASED,41.02564103,40.97176625,Adenocarcinoma,Obese,1,Esophageal,Average Onset,1.939513478,IV,Metastatic
+P-0006610,74.05753255,Asian,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,0.03287311,III,Non-Metastatic
+P-0006615,46.82094773,Asian,Male,Not Hispanic or Latino,1:DECEASED,5.522682446,2.068286277,Adenocarcinoma,Normal_Weight,1,Esophageal,Early Onset,,III,Non-Metastatic
+P-0006652,76.03989131,Black or African AMERICAN,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,,II,Non-Metastatic
+P-0006699,74.7092685,White,Male,Not Hispanic or Latino,1:DECEASED,21.59763314,7.944845699,Adenocarcinoma,Obese,0,Esophageal,Average Onset,1.282051282,III,Non-Metastatic
+P-0006700,78.51210725,Asian,Male,Not Hispanic or Latino,1:DECEASED,7.856673241,7.846355877,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,4.996712689,IV,Metastatic
+P-0006732,73.89884803,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,64.16831032,49.70453053,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Average Onset,1.019066404,II,Non-Metastatic
+P-0006752,75.55242978,White,Male,Not Hispanic or Latino,0:LIVING,,38.70650033,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,0,I,Non-Metastatic
+P-0006836,74.19727989,White,Female,Not Hispanic or Latino,1:DECEASED,7.790927022,7.780695995,Signet_Diffuse,Normal_Weight,1,Gastric,Average Onset,4.536489152,IV,Metastatic
+P-0006838,72.13837382,White,Male,Not Hispanic or Latino,1:DECEASED,39.02038133,21.07682206,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,12.03155819,I,Non-Metastatic
+P-0006859,45.19200714,Other,Male,Not Hispanic or Latino,0:LIVING,,12.37688772,Adenocarcinoma,Normal_Weight,NA,Gastric,Early Onset,,II,Non-Metastatic
+P-0006869,70.16160496,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,16.17357002,16.15233093,Adenocarcinoma,Obese,1,Gastric,Average Onset,4.602235371,IV,Metastatic
+P-0006877,76.06453247,White,Male,Not Hispanic or Latino,1:DECEASED,17.55424063,17.53118844,Adenocarcinoma,Obese,0,Esophageal,Average Onset,3.977646285,IV,Metastatic
+P-0006880,79.41287866,White,Female,Not Hispanic or Latino,1:DECEASED,17.25838264,17.23571898,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0006909,76.94613852,Asian,Male,Not Hispanic or Latino,0:LIVING,,144.7143795,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0006911,25.52835901,White,Male,Not Hispanic or Latino,1:DECEASED,193.721236,17.46552856,Signet_Diffuse,Unknown,1,Gastric,Early Onset,0,II,Non-Metastatic
+P-0006919,78.47651446,White,Male,Not Hispanic or Latino,1:DECEASED,13.90532544,13.887065,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0007118,58.04362855,White,Female,Not Hispanic or Latino,1:DECEASED,13.01775148,13.0006566,Squamous_Cell_Carcinoma,Normal_Weight,0,Esophageal,Average Onset,,IV,Metastatic
+P-0007163,44.29922129,Other,Male,Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,1,Gastric,Early Onset,,II,Non-Metastatic
+P-0007164,65.54560783,White,Male,Not Hispanic or Latino,1:DECEASED,41.05851414,22.29152988,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,I,Non-Metastatic
+P-0007227,48.12692937,White,Male,Not Hispanic or Latino,1:DECEASED,19.92110454,19.89494419,Signet_Diffuse,Overweight,UNKNOWN,Esophageal,Early Onset,,IV,Metastatic
+P-0007290,58.42134564,White,Male,Not Hispanic or Latino,1:DECEASED,61.70282709,56.33617859,Adenocarcinoma,Normal_Weight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,I,Non-Metastatic
+P-0007386,55.79033108,White,Male,Not Hispanic or Latino,0:LIVING,,25.31188444,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,11.37409599,IV,Metastatic
+P-0007531,35.22853538,White,Female,Not Hispanic or Latino,1:DECEASED,53.18869165,53.11884439,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Early Onset,,IV,Metastatic
+P-0007598,43.2534549,White,Male,Not Hispanic or Latino,1:DECEASED,5.424063116,5.41694025,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Early Onset,1.183431953,IV,Metastatic
+P-0007674,71.94398242,White,Male,Not Hispanic or Latino,1:DECEASED,62.26166995,9.980302035,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,2.005259698,III,Non-Metastatic
+P-0007687,57.99434622,White,Male,Not Hispanic or Latino,1:DECEASED,66.86390533,32.86277085,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,8.284023669,III,Non-Metastatic
+P-0007748,44.18149129,White,Male,Not Hispanic or Latino,1:DECEASED,9.401709402,9.389363099,Adenocarcinoma,Obese,UNKNOWN,Esophageal,Early Onset,2.268244576,IV,Metastatic
+P-0007845,58.09564878,White,Male,Not Hispanic or Latino,1:DECEASED,36.32478632,36.2770847,Adenocarcinoma,Obese,UNKNOWN,Esophageal,Average Onset,3.977646285,IV,Metastatic
+P-0007895,36.05549738,White,Male,Hispanic or Latino,1:DECEASED,19.59237344,19.56664478,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Early Onset,7.264957265,IV,Metastatic
+P-0007969,65.03624304,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0007995,52.31855092,Black or African AMERICAN,Female,Not Hispanic or Latino,0:LIVING,,81.58240315,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,4.470742932,IV,Metastatic
+P-0008004,68.11901225,White,Female,Not Hispanic or Latino,1:DECEASED,21.4661407,7.222586999,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,5.982905983,III,Non-Metastatic
+P-0008039,38.91113438,Other,Male,Not Hispanic or Latino,1:DECEASED,19.65811966,19.63230466,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Early Onset,1.906640368,IV,Metastatic
+P-0008178,49.44671463,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Early Onset,,III,Non-Metastatic
+P-0008187,65.25242362,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,46.48257725,26.69074196,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,1.64365549,II,Non-Metastatic
+P-0008188,71.09796916,White,Female,Hispanic or Latino,1:DECEASED,16.53517423,16.51346028,Adenocarcinoma,Overweight,1,Gastric,Average Onset,0.657462196,IV,Metastatic
+P-0008305,38.79340438,White,Male,Not Hispanic or Latino,1:DECEASED,21.76199869,12.01575837,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Early Onset,,III,Non-Metastatic
+P-0008392,48.86342635,Other,Female,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Normal_Weight,1,Gastric,Early Onset,3.846153846,III,Non-Metastatic
+P-0008417,67.33870876,Asian,Male,Not Hispanic or Latino,0:LIVING,,67.59684833,Adenocarcinoma,Normal_Weight,NA,Gastric,Average Onset,1.512163051,IV,Metastatic
+P-0008536,57.13464342,White,Male,Not Hispanic or Latino,1:DECEASED,10.48652202,10.47275115,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,1.906640368,IV,Metastatic
+P-0008711,68.18745993,Asian,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,,I,Non-Metastatic
+P-0008788,67.57154493,White,Male,Not Hispanic or Latino,1:DECEASED,129.9145299,49.93434012,Signet_Diffuse,Normal_Weight,NA,GEJ (Siewert I-II),Average Onset,2.399737015,II,Non-Metastatic
+P-0008809,23.52124502,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,20.1183432,2.659225213,Signet_Diffuse,Normal_Weight,1,Gastric,Early Onset,2.498356345,III,Non-Metastatic
+P-0008844,51.17159604,White,Male,Not Hispanic or Latino,1:DECEASED,34.18803419,34.14313854,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,0.427350427,IV,Metastatic
+P-0008882,45.60543109,Asian,Male,Not Hispanic or Latino,0:LIVING,,80.79448457,Adenocarcinoma,Overweight,1,Gastric,Early Onset,0.164365549,IV,Metastatic
+P-0008926,63.57134872,White,Male,Not Hispanic or Latino,1:DECEASED,32.01840894,31.97636244,Signet_Diffuse,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,0.723208416,IV,Metastatic
+P-0008956,73.2253229,White,Female,Not Hispanic or Latino,1:DECEASED,29.38856016,29.34996717,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,0.690335306,IV,Metastatic
+P-0009043,36.05549738,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Normal_Weight,1,Gastric,Early Onset,11.37409599,I,Non-Metastatic
+P-0009057,69.43069787,White,Female,Not Hispanic or Latino,1:DECEASED,25.04930966,25.01641497,Adenocarcinoma,Overweight,0,Gastric,Average Onset,1.54503616,IV,Metastatic
+P-0009065,48.19800087,White,Male,Not Hispanic or Latino,1:DECEASED,36.52202498,36.47406435,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Early Onset,2.366863905,IV,Metastatic
+P-0009066,48.38144064,White,Male,Not Hispanic or Latino,1:DECEASED,47.96186719,25.96848326,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Early Onset,5.851413544,III,Non-Metastatic
+P-0009069,50.4376088,White,Male,Not Hispanic or Latino,1:DECEASED,12.62327416,6.237688772,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,0.328731098,IV,Metastatic
+P-0009088,55.10847816,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,14.20118343,14.18253447,Adenocarcinoma,Normal_Weight,UNKNOWN,GEJ (Siewert I-II),Average Onset,1.808021039,IV,Metastatic
+P-0009094,33.47079908,Other,Female,Hispanic or Latino,1:DECEASED,87.01512163,22.78397899,Signet_Diffuse,Normal_Weight,NA,Gastric,Early Onset,5.095332018,III,Non-Metastatic
+P-0009100,54.16401432,White,Male,Not Hispanic or Latino,1:DECEASED,18.17882972,18.15495732,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,2.794214333,IV,Metastatic
+P-0009159,46.26526668,White,Female,Not Hispanic or Latino,1:DECEASED,82.05128205,47.86605384,Signet_Diffuse,Normal_Weight,1,Gastric,Early Onset,,III,Non-Metastatic
+P-0009257,29.04656952,Asian,Female,Not Hispanic or Latino,1:DECEASED,10.28928337,10.2757715,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Early Onset,6.180144642,IV,Metastatic
+P-0009337,70.47110253,White,Male,Not Hispanic or Latino,1:DECEASED,21.53188692,21.50361129,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,0.854700855,IV,Metastatic
+P-0009368,47.90778273,Other,Male,Hispanic or Latino,0:LIVING,,105.9093894,Signet_Diffuse,Overweight,1,Gastric,Early Onset,,IV,Metastatic
+P-0009503,33.59149515,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Early Onset,6.278763971,III,Non-Metastatic
+P-0009545,81.06121276,Black or African AMERICAN,Female,Not Hispanic or Latino,1:DECEASED,7.199211045,7.189757058,Signet_Diffuse,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0009563,56.48587354,White,Male,Not Hispanic or Latino,1:DECEASED,6.213017751,6.204858831,Adenocarcinoma,Obese,1,Esophageal,Average Onset,5.226824458,IV,Metastatic
+P-0009607,73.40591068,Black or African AMERICAN,Female,Not Hispanic or Latino,1:DECEASED,48.12623274,18.35193697,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,II,Non-Metastatic
+P-0009628,46.19134319,White,Male,Not Hispanic or Latino,1:DECEASED,49.53977646,49.47472095,Signet_Diffuse,Overweight,1,Gastric,Early Onset,,IV,Metastatic
+P-0009631,50.78543707,White,Female,Not Hispanic or Latino,1:DECEASED,29.68441815,29.64543664,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,3.090072321,IV,Metastatic
+P-0009637,68.214839,White,Male,Not Hispanic or Latino,1:DECEASED,16.07495069,7.583716349,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0009739,46.74440041,White,Male,Hispanic or Latino,1:DECEASED,64.39842209,35.06237689,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Early Onset,,III,Non-Metastatic
+P-0009868,59.28675241,White,Male,Not Hispanic or Latino,0:LIVING,,65.10177282,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,0.591715976,IV,Metastatic
+P-0009872,61.23317613,White,Female,Not Hispanic or Latino,1:DECEASED,44.70742932,44.64871963,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,IV,Metastatic
+P-0009918,85.72386839,White,Male,Not Hispanic or Latino,1:DECEASED,64.39842209,50.558109,Adenocarcinoma,Obese,1,Gastric,Average Onset,0.230111769,III,Non-Metastatic
+P-0010099,41.10431198,White,Male,Not Hispanic or Latino,0:LIVING,,23.01378858,Adenocarcinoma,Normal_Weight,0,Gastric,Early Onset,5.391190007,IV,Metastatic
+P-0010197,50.97697648,White,Female,Not Hispanic or Latino,1:DECEASED,27.25180802,27.21602101,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,3.977646285,IV,Metastatic
+P-0010220,69.57033113,White,Female,Not Hispanic or Latino,1:DECEASED,21.07166338,21.04399212,Adenocarcinoma,Obese,1,Esophageal,Average Onset,10.19066404,IV,Metastatic
+P-0010313,68.11627435,White,Male,Not Hispanic or Latino,1:DECEASED,25.44378698,25.41037426,Signet_Diffuse,Overweight,1,GEJ (Siewert I-II),Average Onset,1.6765286,IV,Metastatic
+P-0010317,66.24354595,White,Male,Not Hispanic or Latino,1:DECEASED,26.36423406,16.67760998,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,1.380670611,IV,Metastatic
+P-0010492,67.19371377,Other,Female,Hispanic or Latino,1:DECEASED,50.3287311,4.432042022,Adenocarcinoma,Obese,0,Gastric,Average Onset,,III,Non-Metastatic
+P-0010501,70.23005264,White,Male,Not Hispanic or Latino,1:DECEASED,13.51084813,13.49310571,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,0.098619329,IV,Metastatic
+P-0010810,31.53532699,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Early Onset,0.690335306,I,Non-Metastatic
+P-0010825,41.75867175,White,Male,Not Hispanic or Latino,1:DECEASED,25.60815253,25.57452397,Other,Normal_Weight,0,Gastric,Early Onset,,IV,Metastatic
+P-0010827,70.9966666,Other,Male,Not Hispanic or Latino,1:DECEASED,41.78172255,36.96651346,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,4.700854701,IV,Metastatic
+P-0010858,69.06644216,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0011175,73.17067884,Asian,Female,Not Hispanic or Latino,1:DECEASED,16.4365549,16.41497045,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,2.169625247,IV,Metastatic
+P-0011284,62.2846465,White,Male,Not Hispanic or Latino,1:DECEASED,39.31623932,39.26460932,Adenocarcinoma,Unknown,UNKNOWN,Esophageal,Average Onset,,IV,Metastatic
+P-0011328,70.6051459,White,Female,Not Hispanic or Latino,1:DECEASED,48.02761341,17.62967827,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,4.569362262,III,Non-Metastatic
+P-0011531,64.61175338,White,Female,Hispanic or Latino,0:LIVING,,110.0459619,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0012339,32.67155839,White,Female,Not Hispanic or Latino,0:LIVING,,2.265265923,Signet_Diffuse,Underweight,NA,Gastric,Early Onset,2.399737015,II,Non-Metastatic
+P-0012627,71.64007474,White,Female,Not Hispanic or Latino,1:DECEASED,15.61472715,15.59422193,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,1.742274819,IV,Metastatic
+P-0012720,24.65211469,Other,Male,Hispanic or Latino,1:DECEASED,12.98487837,12.96782666,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Early Onset,1.051939513,IV,Metastatic
+P-0013106,36.74282611,White,Male,Not Hispanic or Latino,0:LIVING,,98.42416284,Adenocarcinoma,Normal_Weight,UNKNOWN,GEJ (Siewert I-II),Early Onset,,III,Non-Metastatic
+P-0013270,56.66646132,White,Male,Not Hispanic or Latino,0:LIVING,,23.93302692,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,1.873767258,IV,Metastatic
+P-0013302,68.28876249,White,Male,Not Hispanic or Latino,1:DECEASED,21.69625247,21.667761,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,2.071005917,IV,Metastatic
+P-0013314,66.92539888,White,Female,Not Hispanic or Latino,1:DECEASED,54.20775805,54.13657255,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0013386,65.35372618,Asian,Male,Not Hispanic or Latino,1:DECEASED,18.01446417,17.99080762,Adenocarcinoma,Overweight,0,Gastric,Average Onset,2.399737015,IV,Metastatic
+P-0013417,64.46938221,White,Male,Not Hispanic or Latino,0:LIVING,,41.26723572,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,5.950032873,IV,Metastatic
+P-0013879,64.42580386,White,Male,Not Hispanic or Latino,1:DECEASED,20.97304405,20.9455023,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,1.446416831,IV,Metastatic
+P-0014118,27.74594961,White,Male,Hispanic or Latino,1:DECEASED,19.69099277,19.6651346,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Early Onset,3.780407627,IV,Metastatic
+P-0014326,36.27167795,White,Female,Not Hispanic or Latino,1:DECEASED,49.96712689,49.90151018,Signet_Diffuse,Overweight,0,GEJ (Siewert I-II),Early Onset,3.451676529,IV,Metastatic
+P-0014327,55.40691002,White,Male,Not Hispanic or Latino,1:DECEASED,17.61998685,17.59684833,Adenocarcinoma,Overweight,0,Gastric,Average Onset,0.920447074,IV,Metastatic
+P-0014504,72.21503522,White,Female,Not Hispanic or Latino,0:LIVING,,55.74523966,Adenocarcinoma,Obese,0,Esophageal,Average Onset,0.690335306,IV,Metastatic
+P-0015202,52.21177254,White,Male,Not Hispanic or Latino,1:DECEASED,44.14858646,23.07944846,Adenocarcinoma,Normal_Weight,UNKNOWN,GEJ (Siewert I-II),Average Onset,3.977646285,III,Non-Metastatic
+P-0015251,63.77144409,White,Male,Not Hispanic or Latino,1:DECEASED,21.20315582,6.204858831,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,1.57790927,II,Non-Metastatic
+P-0015331,44.13517503,White,Male,Not Hispanic or Latino,1:DECEASED,15.71334648,6.303348654,Adenocarcinoma,Obese,UNKNOWN,Gastric,Early Onset,2.268244576,III,Non-Metastatic
+P-0015553,56.31053341,White,Male,Not Hispanic or Latino,1:DECEASED,28.99408284,20.58437295,Other,Overweight,1,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0015904,30.68087184,White,Male,Not Hispanic or Latino,1:DECEASED,100.887574,100.7550886,Adenocarcinoma,Underweight,0,GEJ (Siewert I-II),Early Onset,,IV,Metastatic
+P-0015911,74.07954989,White,Female,Not Hispanic or Latino,1:DECEASED,48.3234714,NA,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,4.142011834,I,Non-Metastatic
+P-0016008,56.74859853,White,Male,Not Hispanic or Latino,1:DECEASED,58.80999343,58.73276428,Adenocarcinoma,Obese,1,Esophageal,Average Onset,0.986193294,IV,Metastatic
+P-0016020,54.66767513,Asian,Male,Not Hispanic or Latino,0:LIVING,,5.613919895,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,2.103879027,IV,Metastatic
+P-0016069,56.97584482,White,Male,Not Hispanic or Latino,1:DECEASED,25.5095332,7.025607354,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,3.18869165,II,Non-Metastatic
+P-0016187,68.78991355,White,Male,Not Hispanic or Latino,1:DECEASED,28.33662064,19.82928431,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,1.873767258,III,Non-Metastatic
+P-0016229,45.12618329,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Obese,UNKNOWN,Gastric,Early Onset,,II,Non-Metastatic
+P-0016233,80.32471577,White,Male,Not Hispanic or Latino,1:DECEASED,15.71334648,11.22783979,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,0,IV,Metastatic
+P-0016294,67.60702364,White,Male,Not Hispanic or Latino,1:DECEASED,29.94740302,21.01116218,Adenocarcinoma,Overweight,NA,GEJ (Siewert I-II),Average Onset,1.150558843,III,Non-Metastatic
+P-0016310,37.56419822,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Normal_Weight,0,Gastric,Early Onset,,II,Non-Metastatic
+P-0016311,53.32085304,White,Male,Not Hispanic or Latino,1:DECEASED,36.32478632,36.2770847,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,8.547008547,IV,Metastatic
+P-0016657,75.30339432,Asian,Male,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Overweight,NA,Gastric,Average Onset,3.15581854,I,Non-Metastatic
+P-0016931,59.47543983,White,Male,Not Hispanic or Latino,1:DECEASED,19.32938856,19.30400525,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,1.775147929,IV,Metastatic
+P-0017167,69.67140553,White,Male,Not Hispanic or Latino,1:DECEASED,8.612754767,8.601444517,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,1.54503616,IV,Metastatic
+P-0017370,63.69466861,White,Male,Not Hispanic or Latino,1:DECEASED,20.01972387,19.99343401,Adenocarcinoma,Obese,1,Gastric,Average Onset,,IV,Metastatic
+P-0017486,57.57282262,White,Male,Not Hispanic or Latino,1:DECEASED,54.0433925,8.732764281,Other,Obese,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0017733,71.27308113,White,Male,Not Hispanic or Latino,1:DECEASED,14.7600263,14.74064347,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,IV,Metastatic
+P-0017755,67.28395062,White,Female,Not Hispanic or Latino,1:DECEASED,41.71597633,41.66119501,Other,Overweight,1,Gastric,Average Onset,,IV,Metastatic
+P-0018143,69.21428914,White,Female,Not Hispanic or Latino,1:DECEASED,8.711374096,8.69993434,Squamous_Cell_Carcinoma,Normal_Weight,UNKNOWN,Esophageal,Average Onset,,IV,Metastatic
+P-0018340,69.92066914,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0018371,70.62442532,Asian,Male,Not Hispanic or Latino,1:DECEASED,39.21761999,28.29940906,Squamous_Cell_Carcinoma,Normal_Weight,1,Esophageal,Average Onset,,III,Non-Metastatic
+P-0018439,71.76613255,White,Male,Not Hispanic or Latino,0:LIVING,,55.7780696,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0018464,23.01210839,White,Male,Not Hispanic or Latino,0:LIVING,,64.87196323,Adenocarcinoma,Normal_Weight,2,Esophageal,Early Onset,6.47600263,IV,Metastatic
+P-0018510,46.97700843,White,Male,Not Hispanic or Latino,0:LIVING,,32.17334209,Adenocarcinoma,Unknown,0,Esophageal,Early Onset,,III,Non-Metastatic
+P-0018538,53.34811803,White,Female,Not Hispanic or Latino,1:DECEASED,10.68376068,10.66973079,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,0.03287311,IV,Metastatic
+P-0018568,64.10535466,White,Female,Not Hispanic or Latino,1:DECEASED,40.63116371,40.57780696,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,0.262984878,IV,Metastatic
+P-0018591,49.53421357,White,Female,Not Hispanic or Latino,1:DECEASED,19.19789612,19.17268549,Adenocarcinoma,Normal_Weight,0,Gastric,Early Onset,6.048652202,IV,Metastatic
+P-0018683,62.80211093,Other,Female,Not Hispanic or Latino,1:DECEASED,14.7600263,14.74064347,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,4.076265615,IV,Metastatic
+P-0018710,38.03774205,White,Male,Not Hispanic or Latino,1:DECEASED,35.93030901,35.88312541,Other,Normal_Weight,0,GEJ (Siewert I-II),Early Onset,1.64365549,IV,Metastatic
+P-0018714,57.69032446,White,Female,Hispanic or Latino,0:LIVING,,24.32698621,Adenocarcinoma,Normal_Weight,2,Gastric,Average Onset,5.851413544,IV,Metastatic
+P-0018771,68.11912633,White,Male,Not Hispanic or Latino,0:LIVING,,57.87918582,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0018782,59.73280309,Other,Male,Hispanic or Latino,1:DECEASED,49.76988823,49.70453053,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0018800,47.66958482,White,Male,Not Hispanic or Latino,1:DECEASED,29.28994083,29.25147735,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Early Onset,,IV,Metastatic
+P-0018867,69.73460555,Asian,Male,Not Hispanic or Latino,0:LIVING,,10.93237032,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,6.081525312,II,Non-Metastatic
+P-0018892,58.93618623,White,Male,Hispanic or Latino,1:DECEASED,11.078238,11.06369009,Signet_Diffuse,Overweight,0,Esophageal,Average Onset,,IV,Metastatic
+P-0018921,65.43882945,Asian,Male,Not Hispanic or Latino,1:DECEASED,27.87639711,27.83978989,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0018927,67.04860469,White,Female,Not Hispanic or Latino,1:DECEASED,25.54240631,25.50886408,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0018938,32.24159291,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,11.96581197,1.575837163,Adenocarcinoma,Normal_Weight,0,Gastric,Early Onset,13.44510191,IV,Metastatic
+P-0018986,72.44513348,White,Female,Not Hispanic or Latino,0:LIVING,,54.46487196,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0019117,45.0139291,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Early Onset,0.098619329,III,Non-Metastatic
+P-0019145,78.38639169,White,Male,Not Hispanic or Latino,0:LIVING,,55.44977019,Adenocarcinoma,Overweight,1,Gastric,Average Onset,1.117685733,IV,Metastatic
+P-0019181,75.66206014,White,Female,Not Hispanic or Latino,0:LIVING,,50.98489823,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,12.0644313,IV,Metastatic
+P-0019197,28.34817507,White,Male,Not Hispanic or Latino,1:DECEASED,21.79487179,21.76625082,Adenocarcinoma,Obese,0,Gastric,Early Onset,,IV,Metastatic
+P-0019218,43.99268979,White,Male,Not Hispanic or Latino,1:DECEASED,15.0887574,15.06894288,Signet_Diffuse,Obese,0,Gastric,Early Onset,0.723208416,IV,Metastatic
+P-0019224,74.3204857,Asian,Female,Not Hispanic or Latino,0:LIVING,,29.7767564,Signet_Diffuse,Normal_Weight,NA,Gastric,Average Onset,,IV,Metastatic
+P-0019259,71.75791883,White,Male,Not Hispanic or Latino,1:DECEASED,8.711374096,8.69993434,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Average Onset,1.413543721,IV,Metastatic
+P-0019271,30.42909848,Other,Male,Hispanic or Latino,0:LIVING,,47.1109652,Adenocarcinoma,Obese,UNKNOWN,Esophageal,Early Onset,12.03155819,III,Non-Metastatic
+P-0019272,46.7305968,White,Female,Hispanic or Latino,1:DECEASED,25.87113741,25.83716349,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Early Onset,,IV,Metastatic
+P-0019351,61.29078626,White,Male,Hispanic or Latino,1:DECEASED,28.04076266,28.00393959,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0019413,61.50708091,White,Male,Not Hispanic or Latino,1:DECEASED,31.03221565,30.99146422,Adenocarcinoma,Obese,0,Gastric,Average Onset,,IV,Metastatic
+P-0019440,34.85081829,Asian,Female,Not Hispanic or Latino,0:LIVING,,35.22652659,Adenocarcinoma,Normal_Weight,1,Esophageal,Early Onset,,IV,Metastatic
+P-0019501,59.32496903,White,Female,Not Hispanic or Latino,1:DECEASED,17.81722551,13.0006566,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0019549,59.88612588,White,Male,Not Hispanic or Latino,1:DECEASED,6.50887574,6.500328299,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Average Onset,2.071005917,IV,Metastatic
+P-0019639,68.98156704,White,Male,Not Hispanic or Latino,1:DECEASED,27.41617357,22.61982928,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0019657,64.88839607,White,Male,Not Hispanic or Latino,1:DECEASED,68.8034188,52.46224557,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0019691,44.21719816,Asian,Male,Not Hispanic or Latino,0:LIVING,,82.73145108,Signet_Diffuse,Unknown,0,Gastric,Early Onset,,III,Non-Metastatic
+P-0019723,33.00546897,Asian,Female,Not Hispanic or Latino,0:LIVING,,9.028233749,Signet_Diffuse,Normal_Weight,1,Gastric,Early Onset,11.63708087,IV,Metastatic
+P-0019754,59.8615988,White,Male,Not Hispanic or Latino,0:LIVING,,52.82337492,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0019796,35.77075505,Other,Male,Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Obese,0,Gastric,Early Onset,5.489809336,III,Non-Metastatic
+P-0019873,47.59041367,White,Female,Not Hispanic or Latino,0:LIVING,,159.2252134,Signet_Diffuse,Normal_Weight,1,Gastric,Early Onset,,II,Non-Metastatic
+P-0019916,42.79622443,White,Female,Hispanic or Latino,1:DECEASED,12.29454306,12.2783979,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Early Onset,,IV,Metastatic
+P-0019919,64.24761175,White,Male,Not Hispanic or Latino,1:DECEASED,16.33793557,7.780695995,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0019923,69.91245542,White,Female,Not Hispanic or Latino,1:DECEASED,24.39184747,24.35981615,Adenocarcinoma,Overweight,1,Gastric,Average Onset,,IV,Metastatic
+P-0019955,61.60028383,White,Male,Not Hispanic or Latino,0:LIVING,,52.62639527,Squamous_Cell_Carcinoma,Overweight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0020070,68.34352063,White,Male,Not Hispanic or Latino,0:LIVING,,47.20945502,Adenocarcinoma,Obese,1,Esophageal,Average Onset,,III,Non-Metastatic
+P-0020109,65.00338816,Asian,Male,Not Hispanic or Latino,1:DECEASED,19.75673899,19.73079448,Squamous_Cell_Carcinoma,Normal_Weight,0,Esophageal,Average Onset,,IV,Metastatic
+P-0020148,67.35787411,White,Male,Not Hispanic or Latino,1:DECEASED,47.10716634,21.93040053,Adenocarcinoma,Obese,1,Gastric,Average Onset,,II,Non-Metastatic
+P-0020169,57.49593307,White,Male,Not Hispanic or Latino,1:DECEASED,16.37080868,16.34931057,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0020175,69.39487692,White,Male,Not Hispanic or Latino,0:LIVING,,25.80433355,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0020226,47.29996737,White,Male,Not Hispanic or Latino,1:DECEASED,15.7790927,3.381483913,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Early Onset,,III,Non-Metastatic
+P-0020238,75.08709967,White,Female,Not Hispanic or Latino,0:LIVING,,35.85029547,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,1.117685733,IV,Metastatic
+P-0020249,53.24955338,White,Male,Not Hispanic or Latino,0:LIVING,,24.62245568,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,2.465483235,IV,Metastatic
+P-0020346,58.38871891,White,Female,Not Hispanic or Latino,0:LIVING,,34.96388707,Signet_Diffuse,Overweight,1,Gastric,Average Onset,,IV,Metastatic
+P-0020560,60.0093317,White,Male,Not Hispanic or Latino,1:DECEASED,17.42274819,17.39986868,Adenocarcinoma,Overweight,1,Gastric,Average Onset,0.164365549,IV,Metastatic
+P-0020591,72.81463685,White,Male,Not Hispanic or Latino,1:DECEASED,26.52859961,26.49376231,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,3.944773176,IV,Metastatic
+P-0020616,32.83024292,White,Male,Hispanic or Latino,1:DECEASED,25.64102564,14.83913329,Adenocarcinoma,Overweight,NA,Esophageal,Early Onset,,III,Non-Metastatic
+P-0020729,68.23685634,Asian,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,I,Non-Metastatic
+P-0020732,83.24047265,White,Male,Not Hispanic or Latino,1:DECEASED,8.0539119,8.043335522,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0020814,46.50335051,White,Male,Not Hispanic or Latino,0:LIVING,,0.393959291,Signet_Diffuse,Normal_Weight,1,Gastric,Early Onset,,III,Non-Metastatic
+P-0020864,35.72968644,White,Male,Not Hispanic or Latino,1:DECEASED,7.166337936,7.156927118,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Early Onset,0.262984878,IV,Metastatic
+P-0020903,54.37471908,White,Male,Not Hispanic or Latino,1:DECEASED,42.50493097,29.74392646,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0020905,33.55293629,White,Female,Not Hispanic or Latino,1:DECEASED,57.46219592,24.62245568,Signet_Diffuse,Underweight,0,Gastric,Early Onset,5.161078238,I,Non-Metastatic
+P-0021015,75.76872443,White,Female,Not Hispanic or Latino,0:LIVING,,20.97833224,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,0,IV,Metastatic
+P-0021063,43.41213942,Other,Female,Hispanic or Latino,1:DECEASED,6.574621959,6.565988181,Adenocarcinoma,Normal_Weight,1,Gastric,Early Onset,,IV,Metastatic
+P-0021403,70.53943613,White,Male,Not Hispanic or Latino,1:DECEASED,25.37804076,9.848982272,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,0.460223537,III,Non-Metastatic
+P-0021426,66.39686875,White,Male,Not Hispanic or Latino,1:DECEASED,30.70348455,24.19566645,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,5.588428665,III,Non-Metastatic
+P-0021459,46.66751085,Other,Male,Hispanic or Latino,1:DECEASED,11.4069691,4.070912672,Adenocarcinoma,Overweight,0,Gastric,Early Onset,0.06574622,IV,Metastatic
+P-0021519,79.95783623,Asian,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,,I,Non-Metastatic
+P-0021619,63.31124755,White,Male,Not Hispanic or Latino,1:DECEASED,66.79815911,40.54497702,Adenocarcinoma,Unknown,0,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0021641,69.58390658,White,Female,Not Hispanic or Latino,0:LIVING,,52.10111622,Adenocarcinoma,Overweight,1,Gastric,Average Onset,,IV,Metastatic
+P-0021824,49.42207346,White,Male,Not Hispanic or Latino,1:DECEASED,40.07232084,11.5561392,Adenocarcinoma,Obese,UNKNOWN,Esophageal,Early Onset,,III,Non-Metastatic
+P-0021856,70.30659995,White,Female,Not Hispanic or Latino,1:DECEASED,23.24128863,NA,Adenocarcinoma,Overweight,NA,Gastric,Average Onset,0,I,Non-Metastatic
+P-0021993,64.05869616,White,Female,Not Hispanic or Latino,1:DECEASED,9.335963182,9.323703217,Adenocarcinoma,Overweight,0,Gastric,Average Onset,8.514135437,IV,Metastatic
+P-0021997,70.1369638,Black or African AMERICAN,Female,Not Hispanic or Latino,0:LIVING,21.79487179,21.76625082,Adenocarcinoma,Obese,2,Esophageal,Average Onset,3.977646285,IV,Metastatic
+P-0022100,51.99285406,White,Male,Not Hispanic or Latino,0:LIVING,,121.0111622,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0022143,58.27076075,White,Male,Not Hispanic or Latino,0:LIVING,36.06180145,20.81418253,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0022144,66.79683133,White,Male,Not Hispanic or Latino,1:DECEASED,8.08678501,4.235062377,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0022154,76.27797514,Asian,Male,Not Hispanic or Latino,1:DECEASED,18.47468771,18.45042679,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0022526,69.01168402,White,Male,Not Hispanic or Latino,1:DECEASED,13.90532544,13.887065,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,1.314924392,IV,Metastatic
+P-0022669,45.55055888,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,21.07166338,21.04399212,Adenocarcinoma,Normal_Weight,0,Gastric,Early Onset,8.579881657,IV,Metastatic
+P-0022681,74.25751384,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Average Onset,9.533201841,III,Non-Metastatic
+P-0022688,59.01284763,White,Male,Not Hispanic or Latino,1:DECEASED,18.77054569,18.74589626,Signet_Diffuse,Obese,1,GEJ (Siewert I-II),Average Onset,2.596975674,IV,Metastatic
+P-0022787,69.61128565,White,Male,Not Hispanic or Latino,1:DECEASED,5.719921105,5.712409718,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Average Onset,3.681788297,IV,Metastatic
+P-0022788,53.50976862,White,Male,Not Hispanic or Latino,1:DECEASED,22.09072978,22.06172029,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0022847,66.10950259,Asian,Male,Not Hispanic or Latino,1:DECEASED,24.88494412,24.85226527,Signet_Diffuse,Normal_Weight,1,Gastric,Average Onset,,IV,Metastatic
+P-0022896,76.69698899,White,Male,Not Hispanic or Latino,1:DECEASED,32.01840894,19.00853578,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0022932,70.7256138,White,Male,Not Hispanic or Latino,0:LIVING,,39.10045962,Signet_Diffuse,Obese,1,Gastric,Average Onset,1.413543721,IV,Metastatic
+P-0022936,63.70288233,White,Male,Not Hispanic or Latino,0:LIVING,,77.83978989,Other,Obese,1,GEJ (Siewert I-II),Average Onset,0.821827745,IV,Metastatic
+P-0022939,47.11949367,Other,Male,Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Obese,UNKNOWN,Gastric,Early Onset,,II,Non-Metastatic
+P-0022952,55.00443769,Asian,Male,Not Hispanic or Latino,1:DECEASED,20.1183432,11.49047932,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0022954,48.64165589,White,Female,Not Hispanic or Latino,1:DECEASED,10.48652202,10.47275115,Adenocarcinoma,Overweight,1,Gastric,Early Onset,,IV,Metastatic
+P-0022979,63.36052988,White,Male,Not Hispanic or Latino,1:DECEASED,5.489809336,5.482600131,Adenocarcinoma,Obese,1,Esophageal,Average Onset,,IV,Metastatic
+P-0023064,56.98405854,White,Male,Not Hispanic or Latino,0:LIVING,,54.76034143,Adenocarcinoma,Unknown,0,Esophageal,Average Onset,,I,Non-Metastatic
+P-0023093,42.30340116,White,Male,Hispanic or Latino,1:DECEASED,22.68244576,22.65265923,Signet_Diffuse,Obese,0,Gastric,Early Onset,1.61078238,IV,Metastatic
+P-0023129,74.10419105,White,Female,Not Hispanic or Latino,1:DECEASED,5.522682446,5.515430072,Adenocarcinoma,Obese,1,Esophageal,Average Onset,6.213017751,IV,Metastatic
+P-0023194,59.56305286,White,Male,Not Hispanic or Latino,1:DECEASED,7.495069034,7.485226527,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,1.742274819,IV,Metastatic
+P-0023267,63.51385267,White,Male,Not Hispanic or Latino,0:LIVING,,8.076165463,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0023373,52.43354301,White,Male,Not Hispanic or Latino,1:DECEASED,9.105851414,9.093893631,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,3.15581854,IV,Metastatic
+P-0023409,68.07805773,White,Male,Not Hispanic or Latino,1:DECEASED,9.467455621,9.455022981,Adenocarcinoma,Obese,1,Esophageal,Average Onset,,IV,Metastatic
+P-0023417,81.40607496,White,Male,Not Hispanic or Latino,1:DECEASED,45.92373439,32.53447144,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,,II,Non-Metastatic
+P-0023426,73.87432094,White,Female,Not Hispanic or Latino,0:LIVING,,24.45830598,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0023553,56.09150085,White,Male,Not Hispanic or Latino,0:LIVING,,31.02429416,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0023567,28.556256,Other,Male,Hispanic or Latino,1:DECEASED,10.94674556,10.93237032,Adenocarcinoma,Overweight,1,Gastric,Early Onset,0.887573964,IV,Metastatic
+P-0023603,60.89926556,Asian,Male,Not Hispanic or Latino,1:DECEASED,20.57856673,20.55154301,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0023627,53.59452966,White,Male,Not Hispanic or Latino,1:DECEASED,19.62524655,19.59947472,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0023669,68.35447226,White,Male,Not Hispanic or Latino,1:DECEASED,23.37278107,23.34208798,Adenocarcinoma,Obese,UNKNOWN,Esophageal,Average Onset,2.695595003,IV,Metastatic
+P-0023738,65.34825036,White,Female,Not Hispanic or Latino,1:DECEASED,5.424063116,5.41694025,Signet_Diffuse,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0023739,64.27772872,White,Male,Not Hispanic or Latino,0:LIVING,,10.04596192,Adenocarcinoma,Overweight,1,Gastric,Average Onset,0.098619329,III,Non-Metastatic
+P-0023815,40.03367626,Black or African AMERICAN,Male,Not Hispanic or Latino,0:LIVING,,6.565988181,Adenocarcinoma,Underweight,1,Gastric,Early Onset,,IV,Metastatic
+P-0023816,61.56446288,White,Male,Not Hispanic or Latino,1:DECEASED,11.96581197,11.95009849,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,3.451676529,IV,Metastatic
+P-0023883,78.94754855,White,Female,Not Hispanic or Latino,1:DECEASED,63.93819855,NA,Signet_Diffuse,Obese,UNKNOWN,Gastric,Average Onset,,II,Non-Metastatic
+P-0023941,83.16381126,White,Female,Not Hispanic or Latino,0:LIVING,,40.24950755,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0023963,79.9768875,White,Female,Not Hispanic or Latino,1:DECEASED,20.24983563,20.2232436,Adenocarcinoma,Obese,1,Esophageal,Average Onset,,IV,Metastatic
+P-0024038,42.57992977,Asian,Male,Not Hispanic or Latino,1:DECEASED,6.771860618,6.762967827,Adenocarcinoma,Underweight,UNKNOWN,Gastric,Early Onset,0.756081525,IV,Metastatic
+P-0024054,62.3913108,White,Male,Not Hispanic or Latino,0:LIVING,,45.63361786,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,III,Non-Metastatic
+P-0024068,68.61731133,White,Female,Not Hispanic or Latino,0:LIVING,,7.813525936,Other,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,3.747534517,IV,Metastatic
+P-0024088,65.31003374,White,Male,Not Hispanic or Latino,0:LIVING,,43.40118188,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0024120,58.21064088,White,Female,Not Hispanic or Latino,1:DECEASED,35.10848126,35.06237689,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,,IV,Metastatic
+P-0024205,59.01832344,White,Male,Not Hispanic or Latino,1:DECEASED,8.809993425,8.798424163,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,0.690335306,IV,Metastatic
+P-0024243,55.1659742,Other,Female,Hispanic or Latino,0:LIVING,,43.23703217,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,,III,Non-Metastatic
+P-0024258,69.05275262,Other,Male,Not Hispanic or Latino,0:LIVING,,44.55022981,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,IV,Metastatic
+P-0024270,48.84699891,White,Male,Not Hispanic or Latino,1:DECEASED,46.77843524,46.71700591,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Early Onset,,IV,Metastatic
+P-0024329,72.16575289,Asian,Male,Not Hispanic or Latino,1:DECEASED,9.796186719,9.78332239,Adenocarcinoma,Normal_Weight,2,Gastric,Average Onset,4.79947403,IV,Metastatic
+P-0024419,58.4076561,White,Male,Not Hispanic or Latino,1:DECEASED,27.08744247,27.05187131,Other,Normal_Weight,1,Gastric,Average Onset,1.314924392,IV,Metastatic
+P-0024451,58.36384959,White,Female,Not Hispanic or Latino,1:DECEASED,21.66337936,0.295469468,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0024470,69.91519333,White,Female,Not Hispanic or Latino,1:DECEASED,13.54372124,1.378857518,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0024515,41.17812139,White,Male,Not Hispanic or Latino,0:LIVING,,45.40380827,Signet_Diffuse,Obese,0,Gastric,Early Onset,5.489809336,IV,Metastatic
+P-0024527,54.7417127,White,Male,Not Hispanic or Latino,0:LIVING,,47.60341431,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,2.169625247,III,Non-Metastatic
+P-0024530,62.59391591,Other,Male,Not Hispanic or Latino,1:DECEASED,20.97304405,20.9455023,Adenocarcinoma,Obese,0,Gastric,Average Onset,,IV,Metastatic
+P-0024543,72.48882592,White,Female,Not Hispanic or Latino,0:LIVING,,42.97439265,Other,Normal_Weight,2,Gastric,Average Onset,,IV,Metastatic
+P-0024659,63.44837106,White,Male,Not Hispanic or Latino,1:DECEASED,11.4069691,11.39198949,Signet_Diffuse,Overweight,1,Gastric,Average Onset,4.076265615,IV,Metastatic
+P-0024674,63.78216756,White,Female,Not Hispanic or Latino,0:LIVING,,4.169402495,Signet_Diffuse,Obese,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0024735,63.99583838,White,Male,Not Hispanic or Latino,0:LIVING,,35.75180565,Signet_Diffuse,Overweight,1,Gastric,Average Onset,3.681788297,IV,Metastatic
+P-0024891,60.56238892,White,Male,Not Hispanic or Latino,0:LIVING,,54.99015102,Signet_Diffuse,Obese,0,Gastric,Average Onset,,IV,Metastatic
+P-0024920,64.20665722,Other,Male,Not Hispanic or Latino,1:DECEASED,11.24260355,11.22783979,Signet_Diffuse,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0024974,73.95634407,White,Male,Not Hispanic or Latino,1:DECEASED,33.13609467,20.09192383,Adenocarcinoma,Obese,UNKNOWN,Esophageal,Average Onset,,III,Non-Metastatic
+P-0025031,54.22436235,White,Female,Not Hispanic or Latino,1:DECEASED,38.33004602,38.2797111,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0025083,66.41329619,White,Female,Hispanic or Latino,1:DECEASED,49.93425378,30.92580433,Adenocarcinoma,Obese,1,Gastric,Average Onset,,III,Non-Metastatic
+P-0025091,78.11522482,Asian,Female,Not Hispanic or Latino,1:DECEASED,26.36423406,26.32961261,Adenocarcinoma,Underweight,1,Gastric,Average Onset,,IV,Metastatic
+P-0025146,71.79054555,White,Male,Not Hispanic or Latino,1:DECEASED,26.39710717,26.36244255,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,3.813280736,IV,Metastatic
+P-0025151,43.85853234,White,Female,Not Hispanic or Latino,1:DECEASED,27.08744247,27.05187131,Adenocarcinoma,Normal_Weight,0,Gastric,Early Onset,,IV,Metastatic
+P-0025224,47.07009726,Other,Male,Not Hispanic or Latino,0:LIVING,,6.598818122,Adenocarcinoma,Overweight,0,Gastric,Early Onset,0.098619329,IV,Metastatic
+P-0025254,63.6975206,White,Male,Not Hispanic or Latino,1:DECEASED,24.26035503,2.724885095,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0025394,72.55453569,White,Male,Not Hispanic or Latino,NA,,39.26460932,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0025467,52.86077058,White,Female,Hispanic or Latino,0:LIVING,,69.43532502,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0025471,41.17264557,White,Male,Not Hispanic or Latino,1:DECEASED,34.38527285,16.18516087,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Early Onset,,III,Non-Metastatic
+P-0025481,74.13430803,Asian,Female,Not Hispanic or Latino,1:DECEASED,20.87442472,20.84701248,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,0.920447074,IV,Metastatic
+P-0025512,75.44861747,White,Male,Not Hispanic or Latino,1:DECEASED,72.74819198,26.0013132,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,0.788954635,II,Non-Metastatic
+P-0025595,48.52951578,White,Female,Not Hispanic or Latino,1:DECEASED,18.04733728,18.02363756,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Early Onset,,IV,Metastatic
+P-0025609,72.49703964,Asian,Female,Not Hispanic or Latino,1:DECEASED,31.62393162,31.58240315,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,0.098619329,IV,Metastatic
+P-0025710,64.83363793,White,Male,Not Hispanic or Latino,0:LIVING,,66.97307945,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0025770,59.21533867,White,Female,Not Hispanic or Latino,0:LIVING,,43.86080105,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0025857,67.80426703,White,Male,Not Hispanic or Latino,1:DECEASED,32.84023669,24.52396586,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0025877,67.08145958,White,Female,Not Hispanic or Latino,1:DECEASED,17.68573307,7.550886408,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0025889,59.43984704,White,Male,Not Hispanic or Latino,1:DECEASED,,29.80958634,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0025950,62.90877522,White,Male,Not Hispanic or Latino,1:DECEASED,5.719921105,5.712409718,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0025952,69.08024577,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,,I,Non-Metastatic
+P-0026114,74.6326071,White,Female,Not Hispanic or Latino,1:DECEASED,24.65483235,24.62245568,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0026175,69.95067204,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,4.076265615,III,Non-Metastatic
+P-0026231,62.2846465,White,Male,Not Hispanic or Latino,1:DECEASED,4.240631164,4.235062377,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,2.005259698,IV,Metastatic
+P-0026239,59.33318275,White,Male,Not Hispanic or Latino,1:DECEASED,22.32084155,22.29152988,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,IV,Metastatic
+P-0026245,45.97219655,White,Male,Not Hispanic or Latino,1:DECEASED,19.75673899,19.73079448,Adenocarcinoma,Overweight,1,Gastric,Early Onset,,IV,Metastatic
+P-0026250,72.51894289,White,Female,Not Hispanic or Latino,1:DECEASED,22.35371466,21.73342088,Adenocarcinoma,Obese,NA,Gastric,Average Onset,,II,Non-Metastatic
+P-0026252,57.40010632,White,Female,Not Hispanic or Latino,0:LIVING,,19.73079448,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,1.413543721,IV,Metastatic
+P-0026304,73.5841028,White,Male,Not Hispanic or Latino,1:DECEASED,5.555555556,5.548260013,Signet_Diffuse,Overweight,0,Gastric,Average Onset,,IV,Metastatic
+P-0026320,57.14274306,White,Female,Not Hispanic or Latino,0:LIVING,36.52202498,32.23900197,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,III,Non-Metastatic
+P-0026405,70.85703334,White,Male,Not Hispanic or Latino,1:DECEASED,17.88297173,11.42481944,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Average Onset,10.51939513,IV,Metastatic
+P-0026410,52.75114022,White,Male,Not Hispanic or Latino,1:DECEASED,25.70677186,25.67301379,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,11.37409599,IV,Metastatic
+P-0026430,75.33362538,White,Male,Not Hispanic or Latino,1:DECEASED,16.60092045,16.57912016,Adenocarcinoma,Obese,0,Gastric,Average Onset,,IV,Metastatic
+P-0026611,67.598924,White,Male,Not Hispanic or Latino,1:DECEASED,49.73701512,34.40577807,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,0.361604208,III,Non-Metastatic
+P-0026668,60.52132031,White,Female,Not Hispanic or Latino,1:DECEASED,11.30834977,4.005252791,Adenocarcinoma,Unknown,0,Gastric,Average Onset,,I,Non-Metastatic
+P-0026724,52.95933524,White,Male,Not Hispanic or Latino,1:DECEASED,21.00591716,8.667104399,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0026760,71.47032451,White,Male,Not Hispanic or Latino,1:DECEASED,15.68047337,15.65988181,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,2.005259698,IV,Metastatic
+P-0026791,31.95685059,Other,Female,Hispanic or Latino,0:LIVING,,5.942219304,Adenocarcinoma,Normal_Weight,0,Gastric,Early Onset,,IV,Metastatic
+P-0026811,57.7806754,White,Male,Not Hispanic or Latino,0:LIVING,,43.86080105,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0026828,25.49824204,White,Female,Not Hispanic or Latino,0:LIVING,23.53714661,23.50623769,Adenocarcinoma,Normal_Weight,2,Gastric,Early Onset,11.53846154,IV,Metastatic
+P-0026864,61.93419441,White,Male,Not Hispanic or Latino,1:DECEASED,21.07166338,15.98818122,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,II,Non-Metastatic
+P-0026888,56.72121946,White,Female,Not Hispanic or Latino,0:LIVING,,25.01641497,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,,IV,Metastatic
+P-0026909,66.32591132,White,Male,Not Hispanic or Latino,1:DECEASED,11.53846154,11.52330926,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,2.892833662,IV,Metastatic
+P-0026992,54.25447933,White,Female,Not Hispanic or Latino,0:LIVING,,1.181877873,Signet_Diffuse,Obese,1,Gastric,Average Onset,4.372123603,IV,Metastatic
+P-0026993,54.62409678,White,Female,Not Hispanic or Latino,1:DECEASED,14.62853386,14.6093237,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,5.719921105,IV,Metastatic
+P-0027031,31.10536151,Asian,Female,Not Hispanic or Latino,1:DECEASED,19.85535832,19.82928431,Signet_Diffuse,Overweight,0,Gastric,Early Onset,0.328731098,IV,Metastatic
+P-0027094,34.53333516,Asian,Female,Not Hispanic or Latino,1:DECEASED,20.1183432,20.09192383,Adenocarcinoma,Underweight,2,Gastric,Early Onset,,IV,Metastatic
+P-0027124,67.94116238,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Average Onset,,III,Non-Metastatic
+P-0027130,68.20685344,Asian,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0027141,83.21594557,White,Male,Not Hispanic or Latino,1:DECEASED,9.204470743,9.192383454,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0027185,43.80388828,White,Male,Not Hispanic or Latino,1:DECEASED,4.109138725,4.103742613,Adenocarcinoma,Obese,0,Esophageal,Early Onset,3.879026956,IV,Metastatic
+P-0027240,81.2337009,White,Male,Not Hispanic or Latino,1:DECEASED,27.05456936,18.45042679,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,,I,Non-Metastatic
+P-0027241,61.1978115,Other,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,II,Non-Metastatic
+P-0027243,51.28099824,White,Male,Not Hispanic or Latino,0:LIVING,,59.12672357,Adenocarcinoma,Overweight,2,Gastric,Average Onset,,IV,Metastatic
+P-0027254,67.45655284,White,Male,Not Hispanic or Latino,1:DECEASED,20.24983563,20.2232436,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Average Onset,0.854700855,IV,Metastatic
+P-0027263,35.62005608,White,Male,Not Hispanic or Latino,0:LIVING,,42.31779383,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Early Onset,3.122945431,IV,Metastatic
+P-0027267,58.87047646,Black or African AMERICAN,Male,Not Hispanic or Latino,0:LIVING,,24.09717663,Adenocarcinoma,Obese,1,Esophageal,Average Onset,,IV,Metastatic
+P-0027269,68.49136761,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,1.084812623,III,Non-Metastatic
+P-0027325,51.47265173,Black or African AMERICAN,Female,Not Hispanic or Latino,0:LIVING,,40.34799737,Signet_Diffuse,Overweight,1,Gastric,Average Onset,,IV,Metastatic
+P-0027359,63.82049825,White,Male,Not Hispanic or Latino,0:LIVING,,10.8338805,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,0.361604208,III,Non-Metastatic
+P-0027415,50.05989172,White,Female,Not Hispanic or Latino,1:DECEASED,20.4799474,20.45305318,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0027416,84.69715326,White,Male,Not Hispanic or Latino,1:DECEASED,5.456936226,5.44977019,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,7.659434583,IV,Metastatic
+P-0027417,67.11431446,White,Male,Not Hispanic or Latino,1:DECEASED,9.566074951,9.553512804,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Average Onset,3.18869165,IV,Metastatic
+P-0027436,52.80601244,Other,Female,Not Hispanic or Latino,1:DECEASED,17.48849441,8.273145108,Adenocarcinoma,Overweight,2,Gastric,Average Onset,,III,Non-Metastatic
+P-0027460,37.4243368,White,Female,Not Hispanic or Latino,1:DECEASED,23.76725838,23.73604728,Adenocarcinoma,Underweight,1,Gastric,Early Onset,,IV,Metastatic
+P-0027470,66.3093698,White,Male,Hispanic or Latino,1:DECEASED,127.1203156,94.81286934,Adenocarcinoma,Normal_Weight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0027490,54.68969246,White,Female,Not Hispanic or Latino,0:LIVING,,52.3309258,Squamous_Cell_Carcinoma,Overweight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0027661,45.55341086,Asian,Male,Not Hispanic or Latino,0:LIVING,,43.07288247,Adenocarcinoma,Overweight,0,Esophageal,Early Onset,,IV,Metastatic
+P-0027686,62.38309707,White,Male,Not Hispanic or Latino,1:DECEASED,22.28796844,11.52330926,Adenocarcinoma,Obese,0,Esophageal,Average Onset,5.818540434,III,Non-Metastatic
+P-0027743,61.26625917,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,Gastric,Average Onset,0.460223537,I,Non-Metastatic
+P-0027754,38.02405251,Other,Male,not reported,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Early Onset,,II,Non-Metastatic
+P-0027757,66.10950259,White,Male,Not Hispanic or Latino,0:LIVING,,20.25607354,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0027758,74.93925269,White,Female,Not Hispanic or Latino,1:DECEASED,13.18211703,13.1648063,Adenocarcinoma,Overweight,2,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0027809,55.65058374,White,Male,Not Hispanic or Latino,1:DECEASED,15.28599606,15.26592252,Adenocarcinoma,Obese,1,Gastric,Average Onset,4.372123603,IV,Metastatic
+P-0027869,60.0559902,White,Male,Not Hispanic or Latino,1:DECEASED,20.15121631,20.12475378,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,1.282051282,IV,Metastatic
+P-0027939,67.02396353,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0027951,76.45046328,White,Male,Not Hispanic or Latino,0:LIVING,,20.84701248,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0027954,43.105722,Asian,Female,Not Hispanic or Latino,0:LIVING,,16.90741957,Adenocarcinoma,Normal_Weight,1,Gastric,Early Onset,11.99868508,II,Non-Metastatic
+P-0027997,69.73175356,White,Female,Not Hispanic or Latino,0:LIVING,,101.3788575,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0028007,64.79530723,White,Male,Not Hispanic or Latino,0:LIVING,,8.732764281,Adenocarcinoma,Obese,0,Esophageal,Average Onset,6.640368179,III,Non-Metastatic
+P-0028035,41.79688837,White,Female,Not Hispanic or Latino,0:LIVING,35.37146614,35.32501641,Adenocarcinoma,Underweight,2,Gastric,Early Onset,,IV,Metastatic
+P-0028093,66.57232295,White,Female,Not Hispanic or Latino,1:DECEASED,25.24654832,12.54103743,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,II,Non-Metastatic
+P-0028108,55.53559165,White,Male,Not Hispanic or Latino,0:LIVING,39.64497041,NA,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,,III,Non-Metastatic
+P-0028317,50.47069185,Other,Female,Hispanic or Latino,1:DECEASED,4.010519395,4.005252791,Adenocarcinoma,Overweight,1,Gastric,Average Onset,13.05062459,IV,Metastatic
+P-0028382,42.8346692,White,Male,Not Hispanic or Latino,1:DECEASED,31.22945431,17.66250821,Signet_Diffuse,Obese,0,Gastric,Early Onset,0.03287311,III,Non-Metastatic
+P-0028387,57.95863935,White,Male,Not Hispanic or Latino,1:DECEASED,5.818540434,5.81089954,Adenocarcinoma,Overweight,1,Gastric,Average Onset,,IV,Metastatic
+P-0028570,63.22922442,White,Male,Not Hispanic or Latino,1:DECEASED,32.93885602,23.63755745,Squamous_Cell_Carcinoma,Overweight,0,Esophageal,Average Onset,,II,Non-Metastatic
+P-0028581,67.5278525,Black or African AMERICAN,Male,Not Hispanic or Latino,0:LIVING,,36.9993434,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,2.728468113,IV,Metastatic
+P-0028633,72.33002731,White,Male,Unknown,1:DECEASED,35.8974359,35.85029547,Adenocarcinoma,Unknown,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0028634,53.91748861,Other,Female,Not Hispanic or Latino,1:DECEASED,52.16962525,52.10111622,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0028640,77.16517108,White,Male,Not Hispanic or Latino,1:DECEASED,36.75213675,2.298095863,Adenocarcinoma,Obese,1,Gastric,Average Onset,,II,Non-Metastatic
+P-0028657,68.33005925,White,Male,Not Hispanic or Latino,1:DECEASED,20.44707429,NA,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0028658,81.07490229,White,Female,Not Hispanic or Latino,1:DECEASED,18.4418146,18.41759685,Adenocarcinoma,Obese,1,Gastric,Average Onset,,IV,Metastatic
+P-0028909,60.06967973,Other,Male,Hispanic or Latino,0:LIVING,37.14661407,18.12212738,Adenocarcinoma,Unknown,UNKNOWN,Esophageal,Average Onset,,III,Non-Metastatic
+P-0028913,52.71292361,White,Male,Not Hispanic or Latino,1:DECEASED,19.98685076,NA,Other,Overweight,2,Gastric,Average Onset,,III,Non-Metastatic
+P-0028914,63.93012861,Black or African AMERICAN,Female,Not Hispanic or Latino,0:LIVING,,24.68811556,Squamous_Cell_Carcinoma,Overweight,1,Esophageal,Average Onset,,III,Non-Metastatic
+P-0028918,55.32214898,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Overweight,0,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0028919,56.63086853,Other,Female,Hispanic or Latino,0:LIVING,39.6120973,19.33683519,Adenocarcinoma,Overweight,1,Gastric,Average Onset,,II,Non-Metastatic
+P-0028931,45.07142515,White,Female,Not Hispanic or Latino,0:LIVING,,40.64346684,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Early Onset,,IV,Metastatic
+P-0028932,57.46593017,Other,Female,Not Hispanic or Latino,0:LIVING,,44.28759028,Adenocarcinoma,Overweight,1,Gastric,Average Onset,,IV,Metastatic
+P-0029024,62.41332813,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,II,Non-Metastatic
+P-0029025,81.80307148,Asian,Female,Not Hispanic or Latino,1:DECEASED,18.83629191,18.81155614,Adenocarcinoma,Overweight,2,Gastric,Average Onset,0.723208416,IV,Metastatic
+P-0029123,67.99318261,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,0.558842867,II,Non-Metastatic
+P-0029144,64.26415327,White,Male,Not Hispanic or Latino,1:DECEASED,22.02498356,10.14445174,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0029155,71.27867102,White,Male,Not Hispanic or Latino,1:DECEASED,8.842866535,8.831254104,Squamous_Cell_Carcinoma,Underweight,UNKNOWN,Esophageal,Average Onset,,IV,Metastatic
+P-0029276,48.47475764,White,Female,Not Hispanic or Latino,1:DECEASED,14.7600263,14.74064347,Adenocarcinoma,Obese,0,Gastric,Early Onset,7.889546351,IV,Metastatic
+P-0029278,62.67901919,White,Male,Not Hispanic or Latino,1:DECEASED,8.448389218,NA,Squamous_Cell_Carcinoma,Obese,0,Esophageal,Average Onset,,IV,Metastatic
+P-0029290,49.5751681,White,Male,Not Hispanic or Latino,1:DECEASED,24.03024326,23.9986868,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Early Onset,,IV,Metastatic
+P-0029302,65.62489305,White,Male,Not Hispanic or Latino,0:LIVING,,26.75640184,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,2.333990796,IV,Metastatic
+P-0029314,54.49815305,White,Male,Not Hispanic or Latino,0:LIVING,,40.84044649,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,2.202498356,IV,Metastatic
+P-0029319,59.55210123,White,Male,Not Hispanic or Latino,1:DECEASED,29.58579882,29.54694682,Adenocarcinoma,Obese,0,Esophageal,Average Onset,2.432610125,IV,Metastatic
+P-0029334,71.79065963,White,Male,Not Hispanic or Latino,0:LIVING,,5.482600131,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0029406,51.43991093,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,0,Esophageal,Average Onset,3.813280736,III,Non-Metastatic
+P-0029430,56.31315724,White,Male,Not Hispanic or Latino,0:LIVING,,15.39724228,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,0.427350427,III,Non-Metastatic
+P-0029546,64.69138084,White,Male,Unknown,0:LIVING,,NA,Adenocarcinoma,Obese,1,Esophageal,Average Onset,,II,Non-Metastatic
+P-0029587,61.9231287,White,Male,Not Hispanic or Latino,0:LIVING,,14.90479317,Adenocarcinoma,Obese,0,Esophageal,Average Onset,1.084812623,IV,Metastatic
+P-0029617,24.73436598,White,Male,Not Hispanic or Latino,1:DECEASED,15.51610782,15.23309258,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Early Onset,3.517422748,III,Non-Metastatic
+P-0029628,82.68479161,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,0.394477318,II,Non-Metastatic
+P-0029630,68.76253448,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,0.06574622,III,Non-Metastatic
+P-0029660,57.39200668,White,Male,Not Hispanic or Latino,1:DECEASED,24.55621302,10.30860144,Adenocarcinoma,Obese,1,Esophageal,Average Onset,,II,Non-Metastatic
+P-0029669,65.37585759,Other,Male,Not Hispanic or Latino,1:DECEASED,26.59434583,11.16217991,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0029722,53.59190583,White,Male,Not Hispanic or Latino,1:DECEASED,31.72255095,19.63230466,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0029756,80.11663484,White,Male,Hispanic or Latino,1:DECEASED,27.74490467,27.70847012,Adenocarcinoma,Overweight,2,Gastric,Average Onset,7.199211045,IV,Metastatic
+P-0029793,68.71599006,White,Male,Not Hispanic or Latino,0:LIVING,,3.676953381,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,0.394477318,IV,Metastatic
+P-0029805,71.90565172,White,Male,Not Hispanic or Latino,1:DECEASED,13.97107166,13.95272489,Adenocarcinoma,Normal_Weight,2,Gastric,Average Onset,4.963839579,IV,Metastatic
+P-0029813,68.92133309,White,Female,Not Hispanic or Latino,0:LIVING,,0.262639527,Adenocarcinoma,Overweight,0,Gastric,Average Onset,2.169625247,II,Non-Metastatic
+P-0029932,82.79978371,White,Male,Not Hispanic or Latino,1:DECEASED,34.77975016,NA,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,,I,Non-Metastatic
+P-0029933,68.74610704,White,Male,Not Hispanic or Latino,1:DECEASED,10.25641026,6.927117531,Adenocarcinoma,Overweight,1,Gastric,Average Onset,1.446416831,II,Non-Metastatic
+P-0029957,43.44773221,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,0,Esophageal,Early Onset,0,I,Non-Metastatic
+P-0029984,61.55910115,White,Male,Not Hispanic or Latino,1:DECEASED,50.95332018,33.2239002,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0030048,72.95974592,White,Female,Not Hispanic or Latino,0:LIVING,,34.56992777,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0030132,56.0229391,White,Male,Not Hispanic or Latino,0:LIVING,,9.028233749,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,7.297830375,IV,Metastatic
+P-0030149,52.95385942,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,II,Non-Metastatic
+P-0030214,39.19576263,Other,Male,Hispanic or Latino,1:DECEASED,14.72715319,14.70781353,Adenocarcinoma,Overweight,0,Gastric,Early Onset,,IV,Metastatic
+P-0030383,66.37793156,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,2,Esophageal,Average Onset,1.282051282,III,Non-Metastatic
+P-0030414,69.59748204,White,Male,Not Hispanic or Latino,1:DECEASED,18.04733728,11.52330926,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,,III,Non-Metastatic
+P-0030584,60.87188649,Asian,Male,Not Hispanic or Latino,0:LIVING,,34.63558766,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,IV,Metastatic
+P-0030587,74.07133617,White,Male,Not Hispanic or Latino,1:DECEASED,11.99868508,2.593565332,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,1.413543721,III,Non-Metastatic
+P-0030593,54.51994223,White,Male,Not Hispanic or Latino,1:DECEASED,13.05062459,13.03348654,Adenocarcinoma,Unknown,1,Esophageal,Average Onset,1.413543721,IV,Metastatic
+P-0030634,73.99193686,Black or African AMERICAN,Female,Unknown,0:LIVING,0,NA,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,1.972386588,III,Non-Metastatic
+P-0030641,44.8961991,White,Female,Not Hispanic or Latino,1:DECEASED,37.47534517,37.42613263,Adenocarcinoma,Normal_Weight,1,Gastric,Early Onset,,IV,Metastatic
+P-0030847,71.42663208,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0030850,27.06421076,Other,Female,Not Hispanic or Latino,0:LIVING,,41.13591596,Adenocarcinoma,Underweight,0,Gastric,Early Onset,8.284023669,IV,Metastatic
+P-0030897,71.34974252,White,Male,Not Hispanic or Latino,1:DECEASED,19.29651545,19.27117531,Adenocarcinoma,Normal_Weight,UNKNOWN,Esophageal,Average Onset,1.019066404,IV,Metastatic
+P-0030901,62.24916779,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,II,Non-Metastatic
+P-0030937,59.74113089,White,Female,Not Hispanic or Latino,1:DECEASED,14.79289941,14.77347341,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0030940,60.43393544,White,Male,Not Hispanic or Latino,1:DECEASED,7.133464826,7.124097177,Other,Normal_Weight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0030951,51.87786197,White,Male,Hispanic or Latino,0:LIVING,,NA,Other,Overweight,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0031009,66.56947097,White,Male,Not Hispanic or Latino,1:DECEASED,58.57988166,25.80433355,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,II,Non-Metastatic
+P-0031012,57.87661622,White,Male,Not Hispanic or Latino,1:DECEASED,59.27021696,14.87196323,Adenocarcinoma,Unknown,0,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0031040,64.41736198,White,Male,Not Hispanic or Latino,1:DECEASED,25.08218277,25.04924491,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,1.446416831,IV,Metastatic
+P-0031129,62.15311289,White,Male,Not Hispanic or Latino,1:DECEASED,8.11965812,8.108995404,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,9.303090072,IV,Metastatic
+P-0031198,59.63161461,White,Male,Not Hispanic or Latino,0:LIVING,,4.366382141,Other,Obese,1,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0031213,57.51532658,Asian,Female,Not Hispanic or Latino,1:DECEASED,31.42669297,9.290873276,Other,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0031238,37.4409924,Other,Male,Hispanic or Latino,1:DECEASED,7.692307692,7.682206172,Other,Normal_Weight,1,Esophageal,Early Onset,,IV,Metastatic
+P-0031347,37.06019517,White,Male,Not Hispanic or Latino,0:LIVING,,33.78200919,Adenocarcinoma,Obese,1,Esophageal,Early Onset,0.854700855,IV,Metastatic
+P-0031349,53.92581641,Asian,Female,Not Hispanic or Latino,0:LIVING,,11.85160867,Adenocarcinoma,Overweight,1,Gastric,Average Onset,5.719921105,IV,Metastatic
+P-0031351,41.56416627,White,Female,Not Hispanic or Latino,1:DECEASED,6.180144642,6.17202889,Adenocarcinoma,Normal_Weight,1,Gastric,Early Onset,4.240631164,IV,Metastatic
+P-0031438,31.57901942,White,Male,Not Hispanic or Latino,1:DECEASED,9.894806049,9.881812213,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Early Onset,3.28731098,IV,Metastatic
+P-0031478,76.68603736,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,11.66995398,II,Non-Metastatic
+P-0031617,75.71955619,White,Male,Not Hispanic or Latino,0:LIVING,,9.881812213,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0031758,22.82319281,White,Male,Not Hispanic or Latino,0:LIVING,,17.26854892,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Early Onset,3.28731098,IV,Metastatic
+P-0031772,61.87943626,White,Male,Not Hispanic or Latino,1:DECEASED,29.81591059,29.7767564,Adenocarcinoma,Unknown,1,Gastric,Average Onset,6.607495069,IV,Metastatic
+P-0031800,53.33728048,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0031817,72.85581954,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Overweight,NA,Gastric,Average Onset,0,II,Non-Metastatic
+P-0031866,56.78419132,White,Female,Not Hispanic or Latino,1:DECEASED,27.12031558,22.78397899,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,0.361604208,III,Non-Metastatic
+P-0031925,65.34003664,Other,Female,Unknown,1:DECEASED,14.95726496,14.93762311,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,2.399737015,IV,Metastatic
+P-0031954,47.10010016,Asian,Female,Not Hispanic or Latino,0:LIVING,,28.66053841,Adenocarcinoma,Overweight,1,Gastric,Early Onset,11.01249178,IV,Metastatic
+P-0031955,80.78753613,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,2.991452991,III,Non-Metastatic
+P-0031956,77.48014447,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,1,Gastric,Average Onset,2.136752137,III,Non-Metastatic
+P-0031963,56.84442528,White,Male,Not Hispanic or Latino,1:DECEASED,16.04207758,5.876559422,Adenocarcinoma,Obese,0,Esophageal,Average Onset,0.986193294,II,Non-Metastatic
+P-0031970,73.22258499,White,Female,Not Hispanic or Latino,1:DECEASED,15.35174227,4.432042022,Signet_Diffuse,Overweight,2,Gastric,Average Onset,,III,Non-Metastatic
+P-0032050,65.88773212,White,Male,Not Hispanic or Latino,0:LIVING,,0.7222587,Signet_Diffuse,Overweight,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0032059,65.22778246,White,Male,Not Hispanic or Latino,0:LIVING,37.40959895,37.36047275,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,4.602235371,IV,Metastatic
+P-0032064,93.95949267,White,Male,Not Hispanic or Latino,1:DECEASED,14.26692965,NA,Adenocarcinoma,Normal_Weight,2,GEJ (Siewert I-II),Average Onset,5.128205128,III,Non-Metastatic
+P-0032215,35.99800133,White,Female,Not Hispanic or Latino,1:DECEASED,44.90466798,44.84569928,Adenocarcinoma,Normal_Weight,1,Gastric,Early Onset,,IV,Metastatic
+P-0032237,39.80642997,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,0,Esophageal,Early Onset,0.953320184,I,Non-Metastatic
+P-0032246,78.62162353,White,Female,Not Hispanic or Latino,1:DECEASED,31.09796187,31.0571241,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,,IV,Metastatic
+P-0032264,63.20732116,White,Male,Not Hispanic or Latino,0:LIVING,,2.52790545,Other,Unknown,1,Esophageal,Average Onset,,III,Non-Metastatic
+P-0032275,74.49297385,White,Male,Not Hispanic or Latino,1:DECEASED,12.91913215,12.90216678,Adenocarcinoma,Obese,0,Esophageal,Average Onset,4.86522025,IV,Metastatic
+P-0032393,65.64679631,White,Male,Hispanic or Latino,1:DECEASED,33.76068376,NA,Adenocarcinoma,Obese,UNKNOWN,Esophageal,Average Onset,,III,Non-Metastatic
+P-0032445,65.65763386,White,Male,Not Hispanic or Latino,1:DECEASED,14.36554898,7.715036113,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,,III,Non-Metastatic
+P-0032449,64.08618931,White,Female,Not Hispanic or Latino,1:DECEASED,16.40368179,16.38214051,Other,Underweight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0032494,77.2200433,White,Male,Not Hispanic or Latino,1:DECEASED,8.744247206,1.543007223,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,2.465483235,III,Non-Metastatic
+P-0032512,60.92390672,White,Male,Not Hispanic or Latino,1:DECEASED,11.76857331,11.75311884,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,2.432610125,IV,Metastatic
+P-0032592,68.8474096,White,Male,Not Hispanic or Latino,1:DECEASED,34.18803419,22.22586999,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,II,Non-Metastatic
+P-0032599,70.08209158,White,Male,Not Hispanic or Latino,1:DECEASED,19.36226167,7.189757058,Adenocarcinoma,Obese,1,Gastric,Average Onset,4.207758054,III,Non-Metastatic
+P-0032604,58.84309739,White,Male,Not Hispanic or Latino,1:DECEASED,12.36028928,12.34405778,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,1.446416831,IV,Metastatic
+P-0032628,54.54720722,White,Male,Not Hispanic or Latino,0:LIVING,,37.75443204,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,5.095332018,IV,Metastatic
+P-0032640,68.97609123,White,Male,Not Hispanic or Latino,0:LIVING,,31.35259357,Adenocarcinoma,Obese,0,Esophageal,Average Onset,0.131492439,IV,Metastatic
+P-0032642,68.75979657,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,NA,Gastric,Average Onset,,I,Non-Metastatic
+P-0032654,70.54502602,White,Male,Not Hispanic or Latino,0:LIVING,,5.712409718,Other,Overweight,UNKNOWN,Gastric,Average Onset,0.06574622,III,Non-Metastatic
+P-0032678,63.19351755,White,Male,Not Hispanic or Latino,1:DECEASED,17.15976331,17.13722915,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,0.887573964,IV,Metastatic
+P-0032687,56.59242375,White,Male,Not Hispanic or Latino,1:DECEASED,9.566074951,9.553512804,Adenocarcinoma,Obese,1,Esophageal,Average Onset,3.122945431,IV,Metastatic
+P-0032700,68.33005925,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,2.465483235,III,Non-Metastatic
+P-0032728,43.83662909,Asian,Female,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Overweight,0,GEJ (Siewert I-II),Early Onset,2.596975674,III,Non-Metastatic
+P-0032804,44.92905398,White,Male,Not Hispanic or Latino,1:DECEASED,5.391190007,5.384110309,Adenocarcinoma,Obese,2,Gastric,Early Onset,0.493096647,IV,Metastatic
+P-0032806,50.10917404,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,7.692307692,III,Non-Metastatic
+P-0032852,76.13571805,White,Male,Not Hispanic or Latino,1:DECEASED,17.22550953,6.204858831,Adenocarcinoma,Obese,1,Esophageal,Average Onset,0.657462196,III,Non-Metastatic
+P-0033006,65.55370747,White,Female,Not Hispanic or Latino,1:DECEASED,22.91255753,6.795797768,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,,II,Non-Metastatic
+P-0033035,52.20641081,White,Male,Not Hispanic or Latino,1:DECEASED,7.297830375,7.288246881,Adenocarcinoma,Overweight,1,Gastric,Average Onset,4.76660092,IV,Metastatic
+P-0033058,27.41192495,White,Male,Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Overweight,NA,Gastric,Early Onset,9.960552268,II,Non-Metastatic
+P-0033084,69.19786169,White,Male,Not Hispanic or Latino,0:LIVING,,30.76165463,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,1.61078238,IV,Metastatic
+P-0033120,49.9366859,Other,Male,Not Hispanic or Latino,1:DECEASED,46.15384615,19.76362443,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Early Onset,,II,Non-Metastatic
+P-0033190,70.08209158,White,Male,Not Hispanic or Latino,1:DECEASED,19.06640368,7.353906763,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,4.733727811,III,Non-Metastatic
+P-0033209,49.9366859,Asian,Female,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Normal_Weight,0,Gastric,Early Onset,10.28928337,III,Non-Metastatic
+P-0033240,64.41736198,White,Male,Hispanic or Latino,0:LIVING,,25.73867367,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0033250,64.09714094,White,Male,Not Hispanic or Latino,1:DECEASED,10.55226824,10.53841103,Adenocarcinoma,Overweight,1,Gastric,Average Onset,1.512163051,IV,Metastatic
+P-0033355,71.22653671,White,Male,Not Hispanic or Latino,0:LIVING,,5.712409718,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,0.262984878,IV,Metastatic
+P-0033410,57.04155458,White,Male,Not Hispanic or Latino,1:DECEASED,5.128205128,5.121470781,Adenocarcinoma,Obese,1,Gastric,Average Onset,,IV,Metastatic
+P-0033417,83.14475999,Asian,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,2,Esophageal,Average Onset,7.659434583,III,Non-Metastatic
+P-0033479,64.17391642,White,Female,Not Hispanic or Latino,0:LIVING,,36.112935,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,III,Non-Metastatic
+P-0033558,54.20508292,White,Male,Not Hispanic or Latino,0:LIVING,,35.75180565,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0033568,70.84881962,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,4.142011834,II,Non-Metastatic
+P-0033597,68.40672065,Black or African AMERICAN,Male,Not Hispanic or Latino,0:LIVING,,9.717662508,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,3.944773176,IV,Metastatic
+P-0033691,72.84760581,White,Male,Not Hispanic or Latino,1:DECEASED,40.9270217,26.49376231,Squamous_Cell_Carcinoma,Normal_Weight,1,Esophageal,Average Onset,,I,Non-Metastatic
+P-0033743,81.72641008,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,0.230111769,III,Non-Metastatic
+P-0033810,86.56702967,Asian,Male,Not Hispanic or Latino,0:LIVING,,4.3335522,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,0.164365549,III,Non-Metastatic
+P-0033853,68.93228471,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,15.41748849,III,Non-Metastatic
+P-0033857,69.80008716,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,8.777120316,III,Non-Metastatic
+P-0033890,67.01574981,White,Male,Not Hispanic or Latino,1:DECEASED,13.01775148,7.780695995,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,0.723208416,II,Non-Metastatic
+P-0033940,47.69148808,White,Male,Not Hispanic or Latino,1:DECEASED,14.39842209,4.69468155,Adenocarcinoma,Obese,0,Gastric,Early Onset,,III,Non-Metastatic
+P-0033948,65.60287571,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,0,Gastric,Average Onset,3.550295858,III,Non-Metastatic
+P-0033967,80.02902181,White,Female,Not Hispanic or Latino,1:DECEASED,40.33530572,40.28233749,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0034060,54.75266433,White,Female,Not Hispanic or Latino,1:DECEASED,8.08678501,NA,Adenocarcinoma,Obese,0,Esophageal,Average Onset,2.531229454,II,Non-Metastatic
+P-0034083,64.87470653,White,Male,Not Hispanic or Latino,1:DECEASED,42.07758054,8.765594222,Signet_Diffuse,Overweight,0,Gastric,Average Onset,,III,Non-Metastatic
+P-0034126,54.68147874,White,Male,Not Hispanic or Latino,1:DECEASED,20.51282051,20.48588313,Adenocarcinoma,Unknown,0,Esophageal,Average Onset,,IV,Metastatic
+P-0034128,63.69181662,White,Male,Not Hispanic or Latino,0:LIVING,,35.75180565,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,4.010519395,IV,Metastatic
+P-0034132,70.80501311,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,2.925706772,III,Non-Metastatic
+P-0034172,55.10037852,White,Male,Not Hispanic or Latino,0:LIVING,,43.76231123,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0034369,35.2040083,White,Male,Not Hispanic or Latino,1:DECEASED,18.63905325,18.61457649,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Early Onset,0.460223537,IV,Metastatic
+P-0034372,79.11729878,White,Male,Not Hispanic or Latino,0:LIVING,,0.984898227,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,5.654174885,IV,Metastatic
+P-0034429,42.0433,Black or African AMERICAN,Female,Not Hispanic or Latino,0:LIVING,,31.64806303,Adenocarcinoma,Normal_Weight,1,Gastric,Early Onset,,IV,Metastatic
+P-0034430,75.3801698,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,0.098619329,III,Non-Metastatic
+P-0034441,76.23702061,White,Male,Not Hispanic or Latino,1:DECEASED,9.566074951,9.553512804,Adenocarcinoma,Underweight,1,Gastric,Average Onset,0.328731098,IV,Metastatic
+P-0034443,63.03757093,White,Female,Not Hispanic or Latino,1:DECEASED,13.93819855,13.91989494,Signet_Diffuse,Normal_Weight,0,Gastric,Average Onset,8.284023669,IV,Metastatic
+P-0034464,23.97037585,Other,Male,Hispanic or Latino,1:DECEASED,19.55950033,19.53381484,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Early Onset,4.240631164,IV,Metastatic
+P-0034515,68.24518414,White,Male,Not Hispanic or Latino,0:LIVING,,43.13854235,Adenocarcinoma,Normal_Weight,UNKNOWN,Esophageal,Average Onset,,IV,Metastatic
+P-0034542,71.54960973,White,Male,Not Hispanic or Latino,1:DECEASED,10.58514135,10.57124097,Adenocarcinoma,Obese,1,Esophageal,Average Onset,0.230111769,IV,Metastatic
+P-0034557,71.59341625,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,9.66469428,II,Non-Metastatic
+P-0034577,70.84049182,Other,Female,Hispanic or Latino,1:DECEASED,,1.904136573,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Average Onset,4.207758054,IV,Metastatic
+P-0034607,76.9762555,White,Male,Not Hispanic or Latino,1:DECEASED,1.709401709,1.707156927,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,0.887573964,IV,Metastatic
+P-0034625,67.20455131,White,Male,Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,1.512163051,III,Non-Metastatic
+P-0034665,20.47669243,Other,Male,Not Hispanic or Latino,0:LIVING,22.09072978,22.06172029,Adenocarcinoma,Underweight,1,Esophageal,Early Onset,,IV,Metastatic
+P-0034751,65.09362501,White,Male,Not Hispanic or Latino,1:DECEASED,25.1808021,19.10702561,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,2.202498356,III,Non-Metastatic
+P-0034816,82.9531065,White,Female,Unknown,0:LIVING,,11.22783979,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,4.86522025,IV,Metastatic
+P-0034887,66.35317631,White,Male,Unknown,0:LIVING,,NA,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,0.460223537,III,Non-Metastatic
+P-0034916,76.51092539,White,Female,Not Hispanic or Latino,1:DECEASED,10.3879027,8.568614576,Adenocarcinoma,Obese,2,Esophageal,Average Onset,3.944773176,IV,Metastatic
+P-0034917,63.4070743,White,Male,Not Hispanic or Latino,1:DECEASED,14.4312952,14.41234406,Adenocarcinoma,Obese,1,Gastric,Average Onset,0.986193294,IV,Metastatic
+P-0034919,79.67845564,Asian,Male,Not Hispanic or Latino,0:LIVING,,34.40577807,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,11.7357002,IV,Metastatic
+P-0034925,63.90822536,White,Male,Not Hispanic or Latino,0:LIVING,,34.96388707,Adenocarcinoma,Obese,0,Gastric,Average Onset,2.596975674,IV,Metastatic
+P-0034949,71.68650508,White,Male,Not Hispanic or Latino,1:DECEASED,31.5581854,17.23571898,Other,Overweight,1,Gastric,Average Onset,,III,Non-Metastatic
+P-0034995,73.32936337,White,Female,Not Hispanic or Latino,0:LIVING,,25.96848326,Signet_Diffuse,Overweight,1,Gastric,Average Onset,2.432610125,IV,Metastatic
+P-0034999,65.09910083,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,5.818540434,III,Non-Metastatic
+P-0035005,72.75987871,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,Gastric,Average Onset,1.446416831,II,Non-Metastatic
+P-0035067,50.90316707,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,10.78238001,10.76822062,Signet_Diffuse,Normal_Weight,1,Gastric,Average Onset,3.18869165,IV,Metastatic
+P-0035077,68.3875553,White,Male,Not Hispanic or Latino,1:DECEASED,28.96120973,28.92317794,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0035081,59.39330262,White,Male,Not Hispanic or Latino,1:DECEASED,31.39381986,27.6099803,Adenocarcinoma,Obese,1,Gastric,Average Onset,,III,Non-Metastatic
+P-0035096,59.43437123,White,Female,Unknown,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,1.479289941,III,Non-Metastatic
+P-0035218,76.51069723,Asian,Male,Not Hispanic or Latino,0:LIVING,27.48191979,27.4458306,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,2.728468113,IV,Metastatic
+P-0035435,63.7602643,White,Male,Not Hispanic or Latino,1:DECEASED,16.63379356,16.6119501,Adenocarcinoma,Obese,1,Gastric,Average Onset,2.202498356,IV,Metastatic
+P-0035451,42.49494058,Black or African AMERICAN,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Gastric,Early Onset,4.306377383,I,Non-Metastatic
+P-0035467,46.18290131,Asian,Male,Not Hispanic or Latino,1:DECEASED,23.24128863,23.21076822,Adenocarcinoma,Overweight,0,Gastric,Early Onset,,IV,Metastatic
+P-0035566,64.14368536,White,Male,Not Hispanic or Latino,1:DECEASED,10.51939513,10.50558109,Signet_Diffuse,Overweight,0,Gastric,Average Onset,18.77054569,IV,Metastatic
+P-0035631,32.66859233,White,Male,Not Hispanic or Latino,0:LIVING,,26.19829284,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Early Onset,4.339250493,IV,Metastatic
+P-0035750,64.21487094,White,Male,Unknown,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,I,Non-Metastatic
+P-0035772,65.40848432,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,0.098619329,III,Non-Metastatic
+P-0035791,67.36620191,White,Male,Not Hispanic or Latino,1:DECEASED,26.10124918,14.80630335,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,1.808021039,IV,Metastatic
+P-0035794,68.78979947,White,Male,Unknown,0:LIVING,,1.4445174,Adenocarcinoma,Obese,1,Gastric,Average Onset,1.873767258,IV,Metastatic
+P-0035808,70.2546938,White,Female,Not Hispanic or Latino,1:DECEASED,15.68047337,5.318450427,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,2.728468113,III,Non-Metastatic
+P-0035812,24.0689405,White,Male,Hispanic or Latino,1:DECEASED,34.25378041,34.20879842,Adenocarcinoma,Overweight,0,Esophageal,Early Onset,48.38921762,IV,Metastatic
+P-0035875,57.8300718,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,4.733727811,III,Non-Metastatic
+P-0035892,89.81966319,White,Female,Unknown,0:LIVING,,NA,Adenocarcinoma,Obese,1,Gastric,Average Onset,1.57790927,II,Non-Metastatic
+P-0035921,43.23702745,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,0,Gastric,Early Onset,1.249178172,II,Non-Metastatic
+P-0036009,72.03433335,White,Male,Not Hispanic or Latino,1:DECEASED,120.6114398,76.8877216,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Average Onset,0.657462196,II,Non-Metastatic
+P-0036026,64.50497501,White,Male,Not Hispanic or Latino,0:LIVING,,16.67760998,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,2.728468113,IV,Metastatic
+P-0036062,65.35943015,White,Male,Not Hispanic or Latino,1:DECEASED,35.53583169,13.36178595,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0036212,72.05612253,White,Male,Not Hispanic or Latino,0:LIVING,,10.93237032,Adenocarcinoma,Obese,1,Esophageal,Average Onset,3.714661407,III,Non-Metastatic
+P-0036285,69.17036855,White,Male,Not Hispanic or Latino,1:DECEASED,25.5095332,25.47603414,Adenocarcinoma,Overweight,1,Gastric,Average Onset,1.380670611,IV,Metastatic
+P-0036364,37.91727414,White,Male,Hispanic or Latino,1:DECEASED,29.05982906,13.36178595,Signet_Diffuse,Overweight,0,Gastric,Early Onset,7.297830375,II,Non-Metastatic
+P-0036372,20.02778976,White,Female,Not Hispanic or Latino,0:LIVING,,33.81483913,Squamous_Cell_Carcinoma,Normal_Weight,0,Esophageal,Early Onset,,IV,Metastatic
+P-0036390,72.40383672,Asian,Female,Not Hispanic or Latino,0:LIVING,,27.77413001,Signet_Diffuse,Normal_Weight,0,Gastric,Average Onset,,IV,Metastatic
+P-0036426,47.41233564,White,Male,Hispanic or Latino,1:DECEASED,15.31886917,15.29875246,Other,Obese,1,Esophageal,Early Onset,,IV,Metastatic
+P-0036481,66.8952819,White,Male,Not Hispanic or Latino,0:LIVING,,0.787918582,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,4.602235371,III,Non-Metastatic
+P-0036485,75.36910409,White,Male,Not Hispanic or Latino,1:DECEASED,22.51808021,6.040709127,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,0.03287311,III,Non-Metastatic
+P-0036499,58.85131112,White,Male,Not Hispanic or Latino,0:LIVING,,20.2232436,Signet_Diffuse,Overweight,0,GEJ (Siewert I-II),Average Onset,10.35502959,III,Non-Metastatic
+P-0036568,72.49144974,White,Male,Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,0,II,Non-Metastatic
+P-0036827,61.99990417,Asian,Male,Unknown,1:DECEASED,5.292570677,5.285620486,Adenocarcinoma,Overweight,3,Esophageal,Average Onset,6.47600263,IV,Metastatic
+P-0036892,44.46349571,Other,Female,Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Obese,UNKNOWN,Gastric,Early Onset,,II,Non-Metastatic
+P-0036911,72.45870894,White,Male,Not Hispanic or Latino,0:LIVING,,19.5009849,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0036974,87.29542701,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,0.460223537,III,Non-Metastatic
+P-0036989,65.22778246,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,UNKNOWN,GEJ (Siewert I-II),Average Onset,0.657462196,III,Non-Metastatic
+P-0036993,76.20690363,White,Male,Not Hispanic or Latino,0:LIVING,,26.1654629,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,0.887573964,III,Non-Metastatic
+P-0037007,59.72732728,White,Male,Hispanic or Latino,1:DECEASED,23.8330046,23.80170716,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,1.314924392,IV,Metastatic
+P-0037229,70.61883543,White,Male,Unknown,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,4.635108481,III,Non-Metastatic
+P-0037238,66.72267968,White,Female,Unknown,0:LIVING,,NA,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,1.808021039,III,Non-Metastatic
+P-0037262,76.97899341,White,Female,Not Hispanic or Latino,0:LIVING,51.47928994,22.91529875,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,,III,Non-Metastatic
+P-0037311,69.79472542,White,Male,Not Hispanic or Latino,1:DECEASED,50.85470085,9.881812213,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0037317,67.57416876,White,Female,Not Hispanic or Latino,1:DECEASED,13.31360947,13.29612607,Adenocarcinoma,Obese,1,Gastric,Average Onset,4.043392505,IV,Metastatic
+P-0037409,46.67583866,White,Male,Not Hispanic or Latino,0:LIVING,,27.28168089,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Early Onset,0.920447074,IV,Metastatic
+P-0037441,42.85919629,White,Male,Not Hispanic or Latino,0:LIVING,,12.63952725,Signet_Diffuse,Normal_Weight,0,Gastric,Early Onset,6.311637081,III,Non-Metastatic
+P-0037445,45.06321143,Asian,Female,Not Hispanic or Latino,1:DECEASED,72.22222222,17.66250821,Other,Unknown,UNKNOWN,Gastric,Early Onset,,III,Non-Metastatic
+P-0037508,53.25502919,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,33.76068376,II,Non-Metastatic
+P-0037534,53.35097002,White,Male,Not Hispanic or Latino,0:LIVING,,26.82206172,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,2.432610125,IV,Metastatic
+P-0037535,65.27455503,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,4.86522025,I,Non-Metastatic
+P-0037538,54.63208234,White,Male,Not Hispanic or Latino,0:LIVING,22.12360289,22.09455023,Adenocarcinoma,Obese,0,Gastric,Average Onset,0.591715976,IV,Metastatic
+P-0037542,58.40777018,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,2,GEJ (Siewert I-II),Average Onset,,I,Non-Metastatic
+P-0037601,66.90611945,White,Male,Unknown,0:LIVING,,NA,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,6.640368179,III,Non-Metastatic
+P-0037621,72.19575579,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,Gastric,Average Onset,0.723208416,I,Non-Metastatic
+P-0037656,60.26121914,White,Male,Not Hispanic or Latino,0:LIVING,,32.46881156,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,0.756081525,IV,Metastatic
+P-0037683,51.50813044,White,Female,Not Hispanic or Latino,1:DECEASED,21.95923734,5.285620486,Signet_Diffuse,Overweight,0,Gastric,Average Onset,,IV,Metastatic
+P-0037688,58.27897447,White,Female,Not Hispanic or Latino,1:DECEASED,51.64365549,20.12475378,Adenocarcinoma,Obese,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0037737,45.26570247,White,Male,Not Hispanic or Latino,1:DECEASED,19.42800789,19.40249508,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Early Onset,2.662721893,IV,Metastatic
+P-0037739,56.92108668,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,Gastric,Average Onset,3.550295858,III,Non-Metastatic
+P-0037746,73.6141057,Asian,Female,Not Hispanic or Latino,1:DECEASED,13.83957922,13.82140512,Other,Normal_Weight,1,Gastric,Average Onset,3.418803419,IV,Metastatic
+P-0037777,67.88366633,White,Female,Not Hispanic or Latino,0:LIVING,,19.07419567,Adenocarcinoma,Obese,UNKNOWN,GEJ (Siewert I-II),Average Onset,5.161078238,IV,Metastatic
+P-0037821,75.53885432,Asian,Female,Not Hispanic or Latino,1:DECEASED,12.59040105,12.57386737,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,8.809993425,IV,Metastatic
+P-0037890,66.96372958,White,Male,Not Hispanic or Latino,1:DECEASED,14.72715319,14.70781353,Adenocarcinoma,Normal_Weight,UNKNOWN,Esophageal,Average Onset,2.333990796,IV,Metastatic
+P-0038015,71.99326475,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,3.977646285,II,Non-Metastatic
+P-0038080,79.96593587,White,Male,Hispanic or Latino,1:DECEASED,16.83103222,NA,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,10.78238001,III,Non-Metastatic
+P-0038081,66.78291364,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,Esophageal,Average Onset,10.65088757,I,Non-Metastatic
+P-0038124,73.7318357,White,Male,not reported,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0038199,73.05283476,White,Male,Not Hispanic or Latino,1:DECEASED,32.47863248,NA,Adenocarcinoma,Unknown,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0038204,66.64054247,White,Male,Not Hispanic or Latino,0:LIVING,,6.500328299,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,3.024326101,IV,Metastatic
+P-0038245,73.94813035,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,Esophageal,Average Onset,,I,Non-Metastatic
+P-0038255,58.22433041,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,,I,Non-Metastatic
+P-0038294,57.9094711,White,Male,Not Hispanic or Latino,NA,,NA,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,,II,Non-Metastatic
+P-0038297,59.49483334,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,3.583168968,III,Non-Metastatic
+P-0038447,40.90706859,White,Male,Unknown,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,0,Esophageal,Early Onset,4.86522025,III,Non-Metastatic
+P-0038461,68.86109913,White,Male,Not Hispanic or Latino,1:DECEASED,7.297830375,NA,Adenocarcinoma,Overweight,NA,Esophageal,Average Onset,0.558842867,III,Non-Metastatic
+P-0038465,74.30953408,White,Male,Not Hispanic or Latino,1:DECEASED,26.10124918,NA,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,,I,Non-Metastatic
+P-0038508,83.54438033,White,Male,Not Hispanic or Latino,1:DECEASED,4.503616042,4.497701904,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,,IV,Metastatic
+P-0038582,68.61457342,White,Male,Not Hispanic or Latino,1:DECEASED,7.823800131,7.813525936,Adenocarcinoma,Obese,1,Esophageal,Average Onset,1.775147929,IV,Metastatic
+P-0038631,54.62409678,Asian,Male,Hispanic or Latino,1:DECEASED,13.57659435,13.55876559,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,2.991452991,IV,Metastatic
+P-0038633,74.01943001,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,15.18737673,I,Non-Metastatic
+P-0038641,34.42918061,White,Male,Not Hispanic or Latino,1:DECEASED,5.259697567,5.252790545,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Early Onset,3.320184089,IV,Metastatic
+P-0038650,35.35744517,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Overweight,0,Gastric,Early Onset,0.295857988,I,Non-Metastatic
+P-0038769,68.74873087,White,Male,Not Hispanic or Latino,1:DECEASED,26.62721893,10.17728168,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0038797,45.86268027,White,Female,Not Hispanic or Latino,1:DECEASED,14.95726496,14.93762311,Signet_Diffuse,Overweight,0,Gastric,Early Onset,7.232084155,IV,Metastatic
+P-0038848,54.29554794,White,Male,Not Hispanic or Latino,0:LIVING,,25.73867367,Adenocarcinoma,Obese,1,Esophageal,Average Onset,8.02103879,IV,Metastatic
+P-0038937,70.38622742,White,Male,Not Hispanic or Latino,0:LIVING,,26.62508207,Adenocarcinoma,Normal_Weight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0038977,66.64328038,White,Male,Not Hispanic or Latino,0:LIVING,21.49901381,21.47078135,Adenocarcinoma,Overweight,2,Gastric,Average Onset,0.920447074,IV,Metastatic
+P-0039059,66.96646748,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Squamous_Cell_Carcinoma,Normal_Weight,0,Esophageal,Average Onset,,II,Non-Metastatic
+P-0039149,61.35102021,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,9.007232084,II,Non-Metastatic
+P-0039255,47.87492784,Other,Male,Unknown,1:DECEASED,9.59894806,NA,Adenocarcinoma,Unknown,UNKNOWN,Gastric,Early Onset,,NA,NA
+P-0039304,52.22569024,White,Male,Hispanic or Latino,1:DECEASED,12.26166995,12.24556796,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,3.28731098,IV,Metastatic
+P-0039321,65.41418829,White,Male,Not Hispanic or Latino,1:DECEASED,8.941485865,8.929743926,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0039326,65.81369455,White,Male,Hispanic or Latino,0:LIVING,,NA,Other,Obese,0,Gastric,Average Onset,97.17291256,I,Non-Metastatic
+P-0039768,54.81837409,Asian,Female,Not Hispanic or Latino,1:DECEASED,17.94871795,17.92514773,Adenocarcinoma,Underweight,2,Gastric,Average Onset,6.048652202,IV,Metastatic
+P-0039783,49.14816868,Asian,Female,Not Hispanic or Latino,0:LIVING,,40.87327643,Squamous_Cell_Carcinoma,Unknown,0,Esophageal,Early Onset,,II,Non-Metastatic
+P-0039803,85.32424805,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0039886,72.35193057,White,Male,Not Hispanic or Latino,0:LIVING,26.42998028,26.39527249,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,2.925706772,IV,Metastatic
+P-0039937,63.51385267,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,1,Esophageal,Average Onset,0,III,Non-Metastatic
+P-0039951,72.34109302,White,Male,Not Hispanic or Latino,1:DECEASED,16.30506246,NA,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,4.240631164,III,Non-Metastatic
+P-0040020,75.00233863,White,Female,Not Hispanic or Latino,0:LIVING,,21.53644123,Signet_Diffuse,Overweight,0,Gastric,Average Onset,0.986193294,IV,Metastatic
+P-0040082,83.51426335,White,Female,Not Hispanic or Latino,1:DECEASED,17.58711374,2.298095863,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,,I,Non-Metastatic
+P-0040137,71.37187394,White,Male,Not Hispanic or Latino,0:LIVING,,10.43992121,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,0.493096647,IV,Metastatic
+P-0040292,50.04346427,White,Male,Unknown,1:DECEASED,12.4260355,4.72751149,Adenocarcinoma,Normal_Weight,1,Esophageal,Average Onset,6.245890861,III,Non-Metastatic
+P-0040300,58.51192473,White,Male,Unknown,1:DECEASED,64.39842209,64.31385424,Adenocarcinoma,Unknown,0,Esophageal,Average Onset,,IV,Metastatic
+P-0040315,72.02064382,Asian,Male,Not Hispanic or Latino,0:LIVING,,41.36572554,Adenocarcinoma,Unknown,1,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0040341,62.81021057,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,3.418803419,III,Non-Metastatic
+P-0040476,75.56885722,White,Male,Not Hispanic or Latino,0:LIVING,,15.62705187,Other,Normal_Weight,1,Gastric,Average Onset,,III,Non-Metastatic
+P-0040587,57.23320807,White,Male,Not Hispanic or Latino,1:DECEASED,11.76857331,11.75311884,Adenocarcinoma,Obese,2,GEJ (Siewert I-II),Average Onset,1.54503616,IV,Metastatic
+P-0040591,72.36276812,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Other,Overweight,0,Esophageal,Average Onset,0.953320184,III,Non-Metastatic
+P-0040676,61.94788394,White,Male,Not Hispanic or Latino,1:DECEASED,17.29125575,17.26854892,Adenocarcinoma,Obese,NA,GEJ (Siewert I-II),Average Onset,7.889546351,IV,Metastatic
+P-0040842,49.8489588,White,Female,Not Hispanic or Latino,1:DECEASED,15.4503616,15.43007223,Adenocarcinoma,Overweight,1,Gastric,Early Onset,,IV,Metastatic
+P-0041032,60.44192101,White,Female,Hispanic or Latino,0:LIVING,29.84878369,29.80958634,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,1.183431953,IV,Metastatic
+P-0041037,52.77589547,White,Female,Hispanic or Latino,1:DECEASED,11.7357002,4.169402495,Adenocarcinoma,Obese,0,Gastric,Average Onset,4.503616042,II,Non-Metastatic
+P-0041108,76.90506992,Other,Male,Not Hispanic or Latino,1:DECEASED,15.61472715,15.59422193,Signet_Diffuse,Overweight,0,Esophageal,Average Onset,1.512163051,IV,Metastatic
+P-0041167,53.03325873,White,Male,Not Hispanic or Latino,0:LIVING,,20.65003283,Signet_Diffuse,Unknown,0,Gastric,Average Onset,6.903353057,II,Non-Metastatic
+P-0041218,66.60517784,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,,III,Non-Metastatic
+P-0041350,58.51717238,White,Male,Not Hispanic or Latino,0:LIVING,,38.18122127,Other,Unknown,0,Esophageal,Average Onset,,IV,Metastatic
+P-0041382,62.07382766,White,Male,Not Hispanic or Latino,0:LIVING,,39.33026921,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0041383,50.07358125,White,Female,Not Hispanic or Latino,1:DECEASED,17.38987508,10.70256074,Signet_Diffuse,Overweight,0,Gastric,Average Onset,0.723208416,III,Non-Metastatic
+P-0041390,59.81505438,White,Male,Not Hispanic or Latino,0:LIVING,,14.80630335,Adenocarcinoma,Overweight,0,Gastric,Average Onset,,II,Non-Metastatic
+P-0041482,58.74168076,White,Male,Not Hispanic or Latino,1:DECEASED,21.40039448,21.37229153,Adenocarcinoma,Unknown,1,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0041856,64.28594244,White,Female,Not Hispanic or Latino,0:LIVING,,12.08141825,Squamous_Cell_Carcinoma,Underweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0041905,64.26403919,White,Male,Not Hispanic or Latino,0:LIVING,,27.28168089,Adenocarcinoma,Overweight,UNKNOWN,Esophageal,Average Onset,,III,Non-Metastatic
+P-0042015,53.38108699,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,2.366863905,III,Non-Metastatic
+P-0042136,55.40713818,White,Male,Not Hispanic or Latino,1:DECEASED,13.97107166,13.95272489,Adenocarcinoma,Obese,0,Esophageal,Average Onset,3.944773176,IV,Metastatic
+P-0042222,69.56462715,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,1.873767258,III,Non-Metastatic
+P-0042497,71.96862359,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,3.18869165,III,Non-Metastatic
+P-0042581,83.24058673,White,Female,Not Hispanic or Latino,0:LIVING,22.55095332,15.56139199,Signet_Diffuse,Normal_Weight,2,GEJ (Siewert I-II),Average Onset,12.19592373,II,Non-Metastatic
+P-0042597,32.1677835,Asian,Male,Not Hispanic or Latino,0:LIVING,,9.520682863,Adenocarcinoma,Normal_Weight,1,Gastric,Early Onset,1.249178172,IV,Metastatic
+P-0042887,34.55227235,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,UNKNOWN,Gastric,Early Onset,0.427350427,I,Non-Metastatic
+P-0042933,69.08013169,White,Male,Not Hispanic or Latino,0:LIVING,,25.86999343,Squamous_Cell_Carcinoma,Underweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0042994,67.99318261,White,Male,Not Hispanic or Latino,0:LIVING,23.8330046,23.80170716,Adenocarcinoma,Obese,0,Esophageal,Average Onset,1.380670611,IV,Metastatic
+P-0043123,53.57798814,White,Male,Not Hispanic or Latino,1:DECEASED,51.61078238,51.54300722,Other,Unknown,UNKNOWN,Gastric,Average Onset,,IV,Metastatic
+P-0043244,46.32812447,Other,Female,Hispanic or Latino,1:DECEASED,7.725180802,7.715036113,Adenocarcinoma,Underweight,2,Gastric,Early Onset,0.361604208,IV,Metastatic
+P-0043427,70.83775391,Asian,Male,Not Hispanic or Latino,0:LIVING,,10.47275115,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0043476,39.13849474,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Early Onset,2.235371466,III,Non-Metastatic
+P-0043529,68.93764645,White,Male,Unknown,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,3.25443787,III,Non-Metastatic
+P-0043557,68.95966379,Asian,Male,Not Hispanic or Latino,0:LIVING,,23.24359816,Adenocarcinoma,Overweight,UNKNOWN,Gastric,Average Onset,2.596975674,I,Non-Metastatic
+P-0043812,43.41510549,White,Male,Not Hispanic or Latino,1:DECEASED,71.43326759,NA,Adenocarcinoma,Underweight,0,Gastric,Early Onset,,II,Non-Metastatic
+P-0043960,47.73803249,White,Female,Not Hispanic or Latino,0:LIVING,,16.38214051,Signet_Diffuse,Normal_Weight,0,Gastric,Early Onset,29.98027613,II,Non-Metastatic
+P-0043963,64.39568688,White,Male,Not Hispanic or Latino,0:LIVING,,25.54169402,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,1.61078238,IV,Metastatic
+P-0044175,71.36069415,White,Male,not reported,0:LIVING,,9.42219304,Adenocarcinoma,Overweight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0044494,72.77904406,White,Male,Hispanic or Latino,0:LIVING,,19.86211425,Adenocarcinoma,Overweight,1,Gastric,Average Onset,3.648915187,IV,Metastatic
+P-0044510,79.65666646,White,Female,Not Hispanic or Latino,1:DECEASED,18.73767258,3.184504268,Adenocarcinoma,Overweight,2,Gastric,Average Onset,,III,Non-Metastatic
+P-0044598,69.03358727,White,Male,Not Hispanic or Latino,0:LIVING,,20.68286277,Adenocarcinoma,Overweight,1,Gastric,Average Onset,,III,Non-Metastatic
+P-0044997,67.51393481,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Normal_Weight,1,Gastric,Average Onset,2.301117686,III,Non-Metastatic
+P-0045040,67.17454842,White,Male,Unknown,1:DECEASED,17.94871795,17.92514773,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,1.019066404,IV,Metastatic
+P-0045101,73.98372314,White,Male,Not Hispanic or Latino,0:LIVING,,23.14510834,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,6.245890861,III,Non-Metastatic
+P-0045672,76.32451955,White,Male,Not Hispanic or Latino,1:DECEASED,35.27284681,11.26066973,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,,III,Non-Metastatic
+P-0045941,63.1060186,White,Male,Unknown,0:LIVING,27.21893491,7.518056467,Squamous_Cell_Carcinoma,Obese,0,Esophageal,Average Onset,0.361604208,III,Non-Metastatic
+P-0046195,76.23690653,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0046264,74.32322361,White,Female,Not Hispanic or Latino,0:LIVING,,32.60013132,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,1.742274819,IV,Metastatic
+P-0046464,75.91120968,White,Male,Not Hispanic or Latino,1:DECEASED,12.45890861,NA,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,4.963839579,I,Non-Metastatic
+P-0046595,68.47220226,White,Male,Not Hispanic or Latino,0:LIVING,,21.56927118,Adenocarcinoma,Obese,1,GEJ (Siewert I-II),Average Onset,,II,Non-Metastatic
+P-0046620,58.34753623,White,Male,Not Hispanic or Latino,0:LIVING,,6.17202889,Adenocarcinoma,Obese,0,Esophageal,Average Onset,7.922419461,IV,Metastatic
+P-0046653,68.28328667,White,Male,Not Hispanic or Latino,0:LIVING,,19.13985555,Signet_Diffuse,Normal_Weight,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0046792,59.94373601,Black or African AMERICAN,Female,Not Hispanic or Latino,0:LIVING,,14.64215364,Squamous_Cell_Carcinoma,Obese,1,Esophageal,Average Onset,,IV,Metastatic
+P-0046796,50.55271498,White,Male,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Obese,0,Esophageal,Average Onset,2.103879027,III,Non-Metastatic
+P-0046972,65.84940143,White,Female,Not Hispanic or Latino,0:LIVING,,32.17334209,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0046982,52.41711557,Asian,Female,Not Hispanic or Latino,0:LIVING,,21.99606041,Adenocarcinoma,Normal_Weight,0,Gastric,Average Onset,,III,Non-Metastatic
+P-0047612,70.56692928,Asian,Male,Not Hispanic or Latino,1:DECEASED,10.55226824,10.53841103,Squamous_Cell_Carcinoma,Normal_Weight,1,Esophageal,Average Onset,,IV,Metastatic
+P-0047620,63.47278406,Asian,Male,Not Hispanic or Latino,0:LIVING,23.30703485,23.2764281,Other,Normal_Weight,0,Gastric,Average Onset,1.808021039,IV,Metastatic
+P-0047744,39.84202277,Black or African AMERICAN,Male,Not Hispanic or Latino,1:DECEASED,18.01446417,17.99080762,Adenocarcinoma,Normal_Weight,1,Gastric,Early Onset,5.259697567,IV,Metastatic
+P-0048292,64.03964489,White,Male,Not Hispanic or Latino,0:LIVING,,3.184504268,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,0,III,Non-Metastatic
+P-0048301,38.62365415,Other,Female,Not Hispanic or Latino,0:LIVING,,17.76099803,Signet_Diffuse,Overweight,0,Gastric,Early Onset,,III,Non-Metastatic
+P-0049247,53.56703651,Asian,Male,Not Hispanic or Latino,0:LIVING,,20.42022324,Adenocarcinoma,Overweight,0,GEJ (Siewert I-II),Average Onset,,IV,Metastatic
+P-0049258,62.41059022,White,Male,Not Hispanic or Latino,1:DECEASED,88.19855358,6.730137886,Squamous_Cell_Carcinoma,Overweight,1,Esophageal,Average Onset,,III,Non-Metastatic
+P-0049475,62.54200976,White,Female,Not Hispanic or Latino,0:LIVING,,31.25410374,Adenocarcinoma,Obese,1,Esophageal,Average Onset,5.161078238,IV,Metastatic
+P-0049563,79.19955007,Black or African AMERICAN,Female,Not Hispanic or Latino,1:DECEASED,14.99013807,10.01313198,Adenocarcinoma,Normal_Weight,2,Gastric,Average Onset,,II,Non-Metastatic
+P-0049903,55.45083061,Asian,Male,Not Hispanic or Latino,0:LIVING,,5.252790545,Signet_Diffuse,Normal_Weight,0,Gastric,Average Onset,5.752794214,III,Non-Metastatic
+P-0049960,57.74793459,Black or African AMERICAN,Male,Not Hispanic or Latino,0:LIVING,,37.49179251,Adenocarcinoma,Unknown,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0050101,76.13571805,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Other,Obese,1,Gastric,Average Onset,5.424063116,III,Non-Metastatic
+P-0050647,71.73578741,White,Male,Not Hispanic or Latino,1:DECEASED,21.17028271,21.14248194,Adenocarcinoma,Normal_Weight,0,GEJ (Siewert I-II),Average Onset,0.03287311,IV,Metastatic
+P-0050706,57.69602844,White,Male,Not Hispanic or Latino,0:LIVING,,33.15824032,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Average Onset,,I,Non-Metastatic
+P-0051121,58.15314483,Black or African AMERICAN,Female,Not Hispanic or Latino,1:DECEASED,33.20184089,11.03086014,Squamous_Cell_Carcinoma,Obese,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0051410,53.80261059,White,Male,Not Hispanic or Latino,0:LIVING,,51.2803677,Adenocarcinoma,Obese,UNKNOWN,Esophageal,Average Onset,,III,Non-Metastatic
+P-0052543,78.68744738,White,Female,Not Hispanic or Latino,1:DECEASED,21.4661407,7.222586999,Adenocarcinoma,Normal_Weight,1,GEJ (Siewert I-II),Average Onset,0.723208416,III,Non-Metastatic
+P-0052921,58.84035949,White,Male,Not Hispanic or Latino,1:DECEASED,18.86916502,18.84438608,Adenocarcinoma,Underweight,0,GEJ (Siewert I-II),Average Onset,6.903353057,IV,Metastatic
+P-0052930,71.16915474,White,Male,Not Hispanic or Latino,1:DECEASED,16.30506246,16.28365069,Adenocarcinoma,Normal_Weight,0,Esophageal,Average Onset,3.648915187,IV,Metastatic
+P-0053113,46.2951555,White,Male,Not Hispanic or Latino,1:DECEASED,68.37606838,12.4425476,Signet_Diffuse,Obese,UNKNOWN,Gastric,Early Onset,,II,Non-Metastatic
+P-0053336,53.21932232,White,Female,Not Hispanic or Latino,1:DECEASED,,17.53118844,Signet_Diffuse,Overweight,UNKNOWN,Gastric,Average Onset,,III,Non-Metastatic
+P-0053381,80.39601543,White,Male,Not Hispanic or Latino,1:DECEASED,33.85930309,1.4445174,Adenocarcinoma,Overweight,UNKNOWN,GEJ (Siewert I-II),Average Onset,,III,Non-Metastatic
+P-0053762,76.22869281,White,Male,Not Hispanic or Latino,0:LIVING,32.08415516,10.47275115,Adenocarcinoma,Normal_Weight,UNKNOWN,Esophageal,Average Onset,0.197238659,IV,Metastatic
+P-0053842,88.1523919,White,Male,Not Hispanic or Latino,1:DECEASED,24.1617357,24.13000657,Adenocarcinoma,Overweight,0,Gastric,Average Onset,4.010519395,IV,Metastatic
+P-0053941,63.47004616,White,Male,Not Hispanic or Latino,1:DECEASED,24.39184747,8.864084045,Adenocarcinoma,Overweight,0,Gastric,Average Onset,3.780407627,III,Non-Metastatic
+P-0054175,55.56046097,White,Male,Not Hispanic or Latino,1:DECEASED,18.90203813,18.87721602,Squamous_Cell_Carcinoma,Normal_Weight,0,Esophageal,Average Onset,,IV,Metastatic
+P-0054891,63.16089082,White,Male,Not Hispanic or Latino,1:DECEASED,20.51282051,16.57912016,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,5.161078238,IV,Metastatic
+P-0055015,45.69293004,White,Female,Hispanic or Latino,0:LIVING,,59.58634274,Adenocarcinoma,Obese,0,GEJ (Siewert I-II),Early Onset,,III,Non-Metastatic
+P-0056022,52.66900301,Black or African AMERICAN,Female,Not Hispanic or Latino,0:LIVING,,7.058437295,Adenocarcinoma,Underweight,0,Gastric,Average Onset,4.306377383,II,Non-Metastatic
+P-0056140,56.00388783,Other,Male,Hispanic or Latino,1:DECEASED,55.52268245,8.141825345,Signet_Diffuse,Overweight,0,Gastric,Average Onset,,I,Non-Metastatic
+P-0056237,60.01480751,White,Male,Not Hispanic or Latino,0:LIVING,,22.02889035,Adenocarcinoma,Overweight,0,Esophageal,Average Onset,,III,Non-Metastatic
+P-0056783,53.85189292,Black or African AMERICAN,Male,Hispanic or Latino,0:LIVING,,8.108995404,Signet_Diffuse,Overweight,0,Gastric,Average Onset,14.23405654,III,Non-Metastatic
+P-0057981,63.10316662,White,Male,Not Hispanic or Latino,0:LIVING,,37.62311228,Adenocarcinoma,Unknown,0,Gastric,Average Onset,,IV,Metastatic
+P-0058585,72.23693847,White,Female,Not Hispanic or Latino,0:LIVING,,NA,Signet_Diffuse,Normal_Weight,1,Gastric,Average Onset,11.99868508,III,Non-Metastatic
+P-0058695,63.64002455,Asian,Male,Not Hispanic or Latino,0:LIVING,,8.404464872,Signet_Diffuse,Overweight,NA,Gastric,Average Onset,,III,Non-Metastatic
+P-0058857,51.33849429,White,Female,Not Hispanic or Latino,0:LIVING,,12.54103743,Signet_Diffuse,Normal_Weight,0,Gastric,Average Onset,,II,Non-Metastatic
+P-0061048,81.02014415,White,Male,Not Hispanic or Latino,0:LIVING,,22.29152988,Adenocarcinoma,Overweight,2,Gastric,Average Onset,0.098619329,III,Non-Metastatic
+P-0062456,80.12211065,White,Male,Hispanic or Latino,0:LIVING,,1.4445174,Adenocarcinoma,Normal_Weight,1,Gastric,Average Onset,12.0644313,II,Non-Metastatic
+P-0065752,58.6981024,White,Male,Not Hispanic or Latino,0:LIVING,,37.36047275,Adenocarcinoma,Overweight,1,GEJ (Siewert I-II),Average Onset,0.690335306,IV,Metastatic
+P-0066403,72.46429883,Other,Female,not reported,0:LIVING,,4.464871963,Adenocarcinoma,Unknown,UNKNOWN,Gastric,Average Onset,,I,Non-Metastatic
+P-0066694,84.16326139,Asian,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Normal_Weight,UNKNOWN,Gastric,Average Onset,0,I,Non-Metastatic
+P-0066703,70.19993566,Other,Female,Not Hispanic or Latino,0:LIVING,,NA,Adenocarcinoma,Underweight,1,Esophageal,Average Onset,1.183431953,III,Non-Metastatic
+P-0067970,30.42099883,White,Male,Hispanic or Latino,0:LIVING,,26.29678267,Signet_Diffuse,Obese,0,Gastric,Early Onset,17.25838264,III,Non-Metastatic
